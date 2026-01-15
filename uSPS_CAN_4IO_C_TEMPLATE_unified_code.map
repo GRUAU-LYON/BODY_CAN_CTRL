@@ -1,0 +1,1174 @@
+*********************************************************************************************
+*********************************************************************************************
+LINKING FAILED
+The linking process failed in some stage.
+Depending on the phase the linker failed, part of the information contained in this map file may be inaccurate or wrong.
+If the linking failed before the allocation phase finished, then the addresses might be inaccurate.
+Also summary information like the code size is likely to be misleading.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
+PROGRAM "uSPS_CAN_4IO_C_TEMPLATE_unified_code.abs"
+
+*********************************************************************************************
+TARGET SECTION
+---------------------------------------------------------------------------------------------
+Processor   : Freescale HC08
+Memory Model: SMALL
+File Format : ELF (no debug info)
+Linker      : SmartLinker V-5.0.37 Build 9279, Oct  7 2009
+
+*********************************************************************************************
+FILE SECTION
+---------------------------------------------------------------------------------------------
+can_db_tables.c.o                       Model: SMALL,         Lang: ANSI-C
+lin_db_tables.c.o                       Model: SMALL,         Lang: ANSI-C
+os_io_tables.c.o                        Model: SMALL,         Lang: ANSI-C
+modulhardwarecode.c.o                   Model: SMALL,         Lang: ANSI-C
+graph_code.c.o                          Model: SMALL,         Lang: ANSI-C
+System_Init.c.o                         Model: SMALL,         Lang: ANSI-C
+user_code.c.o                           Model: SMALL,         Lang: ANSI-C
+RTSHC08.C.o (ansiis.lib)                Model: SMALL,         Lang: ANSI-C
+STRING.C.o (ansiis.lib)                 Model: SMALL,         Lang: ANSI-C
+bios_can.c.o (project.lib)              Model: SMALL,         Lang: ANSI-C
+bios_cpu.c.o (project.lib)              Model: SMALL,         Lang: ANSI-C
+bios_ee_flash.c.o (project.lib)         Model: SMALL,         Lang: ANSI-C
+bios_i2c.c.o (project.lib)              Model: SMALL,         Lang: ANSI-C
+bios_iee.c.o (project.lib)              Model: SMALL,         Lang: ANSI-C
+bios_interrupts.c.o (project.lib)       Model: SMALL,         Lang: ANSI-C
+bios_io.c.o (project.lib)               Model: SMALL,         Lang: ANSI-C
+bios_sci.c.o (project.lib)              Model: SMALL,         Lang: ANSI-C
+bios_spi.c.o (project.lib)              Model: SMALL,         Lang: ANSI-C
+bios_timer.c.o (project.lib)            Model: SMALL,         Lang: ANSI-C
+can_db.c.o (project.lib)                Model: SMALL,         Lang: ANSI-C
+Cpu.c.o (project.lib)                   Model: SMALL,         Lang: ANSI-C
+JMP_VektorTable.asm.o (project.lib)     Model: SMALL,         Lang: Assembler
+lin_stack.c.o (project.lib)             Model: SMALL,         Lang: ANSI-C
+main.c.o (project.lib)                  Model: SMALL,         Lang: ANSI-C
+MC9S08DZ60.C.o (project.lib)            Model: SMALL,         Lang: ANSI-C
+MODBUS_PLC.C.o (project.lib)            Model: SMALL,         Lang: ANSI-C
+os_can.c.o (project.lib)                Model: SMALL,         Lang: ANSI-C
+os_iee.c.o (project.lib)                Model: SMALL,         Lang: ANSI-C
+os_io.c.o (project.lib)                 Model: SMALL,         Lang: ANSI-C
+os_timer.c.o (project.lib)              Model: SMALL,         Lang: ANSI-C
+os_util.c.o (project.lib)               Model: SMALL,         Lang: ANSI-C
+Start08.c.o (project.lib)               Model: SMALL,         Lang: ANSI-C
+SYSTEM_CAN_EEprom.c.o (project.lib)     Model: SMALL,         Lang: ANSI-C
+
+*********************************************************************************************
+STARTUP SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+SECTION-ALLOCATION SECTION
+Section Name                    Size  Type     From       To       Segment
+---------------------------------------------------------------------------------------------
+.abs_section_0                     1   N/I        0x0        0x0   .absSeg0
+.abs_section_1                     1   N/I        0x1        0x1   .absSeg1
+.abs_section_2                     1   N/I        0x2        0x2   .absSeg2
+.abs_section_3                     1   N/I        0x3        0x3   .absSeg3
+.abs_section_4                     1   N/I        0x4        0x4   .absSeg4
+.abs_section_5                     1   N/I        0x5        0x5   .absSeg5
+.abs_section_6                     1   N/I        0x6        0x6   .absSeg6
+.abs_section_7                     1   N/I        0x7        0x7   .absSeg7
+.abs_section_8                     1   N/I        0x8        0x8   .absSeg8
+.abs_section_9                     1   N/I        0x9        0x9   .absSeg9
+.abs_section_a                     1   N/I        0xA        0xA   .absSeg10
+.abs_section_b                     1   N/I        0xB        0xB   .absSeg11
+.abs_section_c                     1   N/I        0xC        0xC   .absSeg12
+.abs_section_d                     1   N/I        0xD        0xD   .absSeg13
+.abs_section_e                     1   N/I        0xE        0xE   .absSeg14
+.abs_section_f                     1   N/I        0xF        0xF   .absSeg15
+.abs_section_10                    1   N/I       0x10       0x10   .absSeg16
+.abs_section_11                    1   N/I       0x11       0x11   .absSeg17
+.abs_section_16                    1   N/I       0x16       0x16   .absSeg18
+.abs_section_17                    1   N/I       0x17       0x17   .absSeg19
+.abs_section_18                    1   N/I       0x18       0x18   .absSeg20
+.abs_section_19                    1   N/I       0x19       0x19   .absSeg21
+.abs_section_1c                    1   N/I       0x1C       0x1C   .absSeg22
+.abs_section_20                    1   N/I       0x20       0x20   .absSeg23
+.abs_section_25                    1   N/I       0x25       0x25   .absSeg24
+.abs_section_28                    1   N/I       0x28       0x28   .absSeg25
+.abs_section_2b                    1   N/I       0x2B       0x2B   .absSeg26
+.abs_section_2e                    1   N/I       0x2E       0x2E   .absSeg27
+.abs_section_31                    1   N/I       0x31       0x31   .absSeg28
+.abs_section_34                    1   N/I       0x34       0x34   .absSeg29
+.abs_section_3a                    1   N/I       0x3A       0x3A   .absSeg30
+.abs_section_3b                    1   N/I       0x3B       0x3B   .absSeg31
+.abs_section_3c                    1   N/I       0x3C       0x3C   .absSeg32
+.abs_section_3d                    1   N/I       0x3D       0x3D   .absSeg33
+.abs_section_3e                    1   N/I       0x3E       0x3E   .absSeg34
+.abs_section_3f                    1   N/I       0x3F       0x3F   .absSeg35
+.abs_section_42                    1   N/I       0x42       0x42   .absSeg36
+.abs_section_43                    1   N/I       0x43       0x43   .absSeg37
+.abs_section_44                    1   N/I       0x44       0x44   .absSeg38
+.abs_section_45                    1   N/I       0x45       0x45   .absSeg39
+.abs_section_46                    1   N/I       0x46       0x46   .absSeg40
+.abs_section_47                    1   N/I       0x47       0x47   .absSeg41
+.abs_section_48                    1   N/I       0x48       0x48   .absSeg42
+.abs_section_49                    1   N/I       0x49       0x49   .absSeg43
+.abs_section_4a                    1   N/I       0x4A       0x4A   .absSeg44
+.abs_section_4b                    1   N/I       0x4B       0x4B   .absSeg45
+.abs_section_4c                    1   N/I       0x4C       0x4C   .absSeg46
+.abs_section_50                    1   N/I       0x50       0x50   .absSeg47
+.abs_section_51                    1   N/I       0x51       0x51   .absSeg48
+.abs_section_52                    1   N/I       0x52       0x52   .absSeg49
+.abs_section_53                    1   N/I       0x53       0x53   .absSeg50
+.abs_section_55                    1   N/I       0x55       0x55   .absSeg51
+.abs_section_58                    1   N/I       0x58       0x58   .absSeg52
+.abs_section_59                    1   N/I       0x59       0x59   .absSeg53
+.abs_section_5a                    1   N/I       0x5A       0x5A   .absSeg54
+.abs_section_5b                    1   N/I       0x5B       0x5B   .absSeg55
+.abs_section_5c                    1   N/I       0x5C       0x5C   .absSeg56
+.abs_section_5d                    1   N/I       0x5D       0x5D   .absSeg57
+.abs_section_60                    1   N/I       0x60       0x60   .absSeg58
+.abs_section_65                    1   N/I       0x65       0x65   .absSeg59
+.abs_section_68                    1   N/I       0x68       0x68   .absSeg60
+.abs_section_6c                    1   N/I       0x6C       0x6C   .absSeg61
+.abs_section_6d                    1   N/I       0x6D       0x6D   .absSeg62
+.abs_section_6e                    1   N/I       0x6E       0x6E   .absSeg63
+.abs_section_1800                  1   N/I     0x1800     0x1800   .absSeg64
+.abs_section_1801                  1   N/I     0x1801     0x1801   .absSeg65
+.abs_section_1802                  1   N/I     0x1802     0x1802   .absSeg66
+.abs_section_1803                  1   N/I     0x1803     0x1803   .absSeg67
+.abs_section_1809                  1   N/I     0x1809     0x1809   .absSeg68
+.abs_section_180a                  1   N/I     0x180A     0x180A   .absSeg69
+.abs_section_1816                  1   N/I     0x1816     0x1816   .absSeg70
+.abs_section_1817                  1   N/I     0x1817     0x1817   .absSeg71
+.abs_section_1818                  1   N/I     0x1818     0x1818   .absSeg72
+.abs_section_1820                  1   N/I     0x1820     0x1820   .absSeg73
+.abs_section_1821                  1   N/I     0x1821     0x1821   .absSeg74
+.abs_section_1823                  1   N/I     0x1823     0x1823   .absSeg75
+.abs_section_1824                  1   N/I     0x1824     0x1824   .absSeg76
+.abs_section_1825                  1   N/I     0x1825     0x1825   .absSeg77
+.abs_section_1826                  1   N/I     0x1826     0x1826   .absSeg78
+.abs_section_1840                  1   N/I     0x1840     0x1840   .absSeg79
+.abs_section_1841                  1   N/I     0x1841     0x1841   .absSeg80
+.abs_section_1842                  1   N/I     0x1842     0x1842   .absSeg81
+.abs_section_1844                  1   N/I     0x1844     0x1844   .absSeg82
+.abs_section_1845                  1   N/I     0x1845     0x1845   .absSeg83
+.abs_section_1846                  1   N/I     0x1846     0x1846   .absSeg84
+.abs_section_1848                  1   N/I     0x1848     0x1848   .absSeg85
+.abs_section_1849                  1   N/I     0x1849     0x1849   .absSeg86
+.abs_section_184a                  1   N/I     0x184A     0x184A   .absSeg87
+.abs_section_184c                  1   N/I     0x184C     0x184C   .absSeg88
+.abs_section_184d                  1   N/I     0x184D     0x184D   .absSeg89
+.abs_section_184e                  1   N/I     0x184E     0x184E   .absSeg90
+.abs_section_1850                  1   N/I     0x1850     0x1850   .absSeg91
+.abs_section_1851                  1   N/I     0x1851     0x1851   .absSeg92
+.abs_section_1852                  1   N/I     0x1852     0x1852   .absSeg93
+.abs_section_1858                  1   N/I     0x1858     0x1858   .absSeg94
+.abs_section_1859                  1   N/I     0x1859     0x1859   .absSeg95
+.abs_section_185a                  1   N/I     0x185A     0x185A   .absSeg96
+.abs_section_185c                  1   N/I     0x185C     0x185C   .absSeg97
+.abs_section_185d                  1   N/I     0x185D     0x185D   .absSeg98
+.abs_section_185e                  1   N/I     0x185E     0x185E   .absSeg99
+.abs_section_1860                  1   N/I     0x1860     0x1860   .absSeg100
+.abs_section_1861                  1   N/I     0x1861     0x1861   .absSeg101
+.abs_section_1862                  1   N/I     0x1862     0x1862   .absSeg102
+.abs_section_1868                  1   N/I     0x1868     0x1868   .absSeg103
+.abs_section_1869                  1   N/I     0x1869     0x1869   .absSeg104
+.abs_section_186a                  1   N/I     0x186A     0x186A   .absSeg105
+.abs_section_1870                  1   N/I     0x1870     0x1870   .absSeg106
+.abs_section_1871                  1   N/I     0x1871     0x1871   .absSeg107
+.abs_section_1872                  1   N/I     0x1872     0x1872   .absSeg108
+.abs_section_1880                  1   N/I     0x1880     0x1880   .absSeg109
+.abs_section_1881                  1   N/I     0x1881     0x1881   .absSeg110
+.abs_section_1882                  1   N/I     0x1882     0x1882   .absSeg111
+.abs_section_1883                  1   N/I     0x1883     0x1883   .absSeg112
+.abs_section_1884                  1   N/I     0x1884     0x1884   .absSeg113
+.abs_section_1885                  1   N/I     0x1885     0x1885   .absSeg114
+.abs_section_1886                  1   N/I     0x1886     0x1886   .absSeg115
+.abs_section_1887                  1   N/I     0x1887     0x1887   .absSeg116
+.abs_section_1888                  1   N/I     0x1888     0x1888   .absSeg117
+.abs_section_1889                  1   N/I     0x1889     0x1889   .absSeg118
+.abs_section_188a                  1   N/I     0x188A     0x188A   .absSeg119
+.abs_section_188b                  1   N/I     0x188B     0x188B   .absSeg120
+.abs_section_188d                  1   N/I     0x188D     0x188D   .absSeg121
+.abs_section_188e                  1   N/I     0x188E     0x188E   .absSeg122
+.abs_section_188f                  1   N/I     0x188F     0x188F   .absSeg123
+.abs_section_1890                  1   N/I     0x1890     0x1890   .absSeg124
+.abs_section_1891                  1   N/I     0x1891     0x1891   .absSeg125
+.abs_section_1892                  1   N/I     0x1892     0x1892   .absSeg126
+.abs_section_1893                  1   N/I     0x1893     0x1893   .absSeg127
+.abs_section_1894                  1   N/I     0x1894     0x1894   .absSeg128
+.abs_section_1895                  1   N/I     0x1895     0x1895   .absSeg129
+.abs_section_1896                  1   N/I     0x1896     0x1896   .absSeg130
+.abs_section_1897                  1   N/I     0x1897     0x1897   .absSeg131
+.abs_section_1898                  1   N/I     0x1898     0x1898   .absSeg132
+.abs_section_1899                  1   N/I     0x1899     0x1899   .absSeg133
+.abs_section_189a                  1   N/I     0x189A     0x189A   .absSeg134
+.abs_section_189b                  1   N/I     0x189B     0x189B   .absSeg135
+.abs_section_189c                  1   N/I     0x189C     0x189C   .absSeg136
+.abs_section_189d                  1   N/I     0x189D     0x189D   .absSeg137
+.abs_section_189e                  1   N/I     0x189E     0x189E   .absSeg138
+.abs_section_189f                  1   N/I     0x189F     0x189F   .absSeg139
+.abs_section_18a4                  1   N/I     0x18A4     0x18A4   .absSeg140
+.abs_section_18a5                  1   N/I     0x18A5     0x18A5   .absSeg141
+.abs_section_18a6                  1   N/I     0x18A6     0x18A6   .absSeg142
+.abs_section_18a7                  1   N/I     0x18A7     0x18A7   .absSeg143
+.abs_section_18a8                  1   N/I     0x18A8     0x18A8   .absSeg144
+.abs_section_18a9                  1   N/I     0x18A9     0x18A9   .absSeg145
+.abs_section_18aa                  1   N/I     0x18AA     0x18AA   .absSeg146
+.abs_section_18ab                  1   N/I     0x18AB     0x18AB   .absSeg147
+.abs_section_18ac                  1   N/I     0x18AC     0x18AC   .absSeg148
+.abs_section_18b4                  1   N/I     0x18B4     0x18B4   .absSeg149
+.abs_section_18b5                  1   N/I     0x18B5     0x18B5   .absSeg150
+.abs_section_18b6                  1   N/I     0x18B6     0x18B6   .absSeg151
+.abs_section_18b7                  1   N/I     0x18B7     0x18B7   .absSeg152
+.abs_section_18b8                  1   N/I     0x18B8     0x18B8   .absSeg153
+.abs_section_18b9                  1   N/I     0x18B9     0x18B9   .absSeg154
+.abs_section_18ba                  1   N/I     0x18BA     0x18BA   .absSeg155
+.abs_section_18bb                  1   N/I     0x18BB     0x18BB   .absSeg156
+.abs_section_18bc                  1   N/I     0x18BC     0x18BC   .absSeg157
+.abs_section_18bd                  1   N/I     0x18BD     0x18BD   .absSeg158
+.abs_section_12                    2   N/I       0x12       0x13   .absSeg159
+.abs_section_14                    2   N/I       0x14       0x15   .absSeg160
+.abs_section_21                    2   N/I       0x21       0x22   .absSeg161
+.abs_section_23                    2   N/I       0x23       0x24   .absSeg162
+.abs_section_26                    2   N/I       0x26       0x27   .absSeg163
+.abs_section_29                    2   N/I       0x29       0x2A   .absSeg164
+.abs_section_2c                    2   N/I       0x2C       0x2D   .absSeg165
+.abs_section_2f                    2   N/I       0x2F       0x30   .absSeg166
+.abs_section_32                    2   N/I       0x32       0x33   .absSeg167
+.abs_section_35                    2   N/I       0x35       0x36   .absSeg168
+.abs_section_38                    2   N/I       0x38       0x39   .absSeg169
+.abs_section_40                    2   N/I       0x40       0x41   .absSeg170
+.abs_section_61                    2   N/I       0x61       0x62   .absSeg171
+.abs_section_63                    2   N/I       0x63       0x64   .absSeg172
+.abs_section_66                    2   N/I       0x66       0x67   .absSeg173
+.abs_section_69                    2   N/I       0x69       0x6A   .absSeg174
+.abs_section_1806                  2   N/I     0x1806     0x1807   .absSeg175
+.abs_section_1810                  2   N/I     0x1810     0x1811   .absSeg176
+.abs_section_1812                  2   N/I     0x1812     0x1813   .absSeg177
+.abs_section_1814                  2   N/I     0x1814     0x1815   .absSeg178
+.abs_section_18ae                  2   N/I     0x18AE     0x18AF   .absSeg179
+.abs_section_18be                  2   N/I     0x18BE     0x18BF   .absSeg180
+.abs_section_18a0                  4   N/I     0x18A0     0x18A3   .absSeg181
+.abs_section_18b0                  4   N/I     0x18B0     0x18B3   .absSeg182
+
+Summary of section sizes per section type:
+NO_INIT (N/I):          D3 (dec:      211)
+
+*********************************************************************************************
+VECTOR-ALLOCATION SECTION
+    Address     InitValue   InitFunction
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+OBJECT-ALLOCATION SECTION
+     Name               Module                 Addr   hSize   dSize     Ref    Section   RLIB
+---------------------------------------------------------------------------------------------
+MODULE:                 -- can_db_tables.c.o --
+- PROCEDURES:
+- VARIABLES:
+     can1_block_db_const                          0'Error      13      19       0   .rodata     
+     can_block_db_const                           0'Error       4       4       0   .data       
+MODULE:                 -- lin_db_tables.c.o --
+- PROCEDURES:
+- VARIABLES:
+     ext_dyn_lin_bux_max                          0'Error       1       1       0   .data       
+     ext_dyn_lin_msg_queue_size                   0'Error       1       1       0   .data       
+     ext_dyn_lin_rx_msg_queue_read                0'Error       1       1       0   .bss        
+     ext_dyn_lin_rx_msg_queue_write               0'Error       1       1       0   .bss        
+     ext_dyn_lin_rx_header_queue_read             0'Error       1       1       0   .bss        
+     ext_dyn_lin_rx_header_queue_write            0'Error       1       1       0   .bss        
+     ext_lin_frame_db                             0'Error       8       8       0   .bss        
+     ext_ary_lin_test_frame_flag                  0'Error       2       2       0   .common     
+     ext_dyn_lin_rx_msg_queue                     0'Error      11      17       0   .common     
+     ext_dyn_lin_rx_header_queue                  0'Error       1       1       0   .common     
+     ext_lin_bus_db                               0'Error       9       9       0   .common     
+MODULE:                 -- os_io_tables.c.o --
+- PROCEDURES:
+- VARIABLES:
+     os_port_pin                                  0'Error      FF     255       0   .rodata     
+     os_analog_pin                                0'Error      D8     216       0   .rodata     
+     os_pwm_pin                                   0'Error      4B      75       0   .rodata     
+     bios_osc_clk                                 0'Error       1       1       0   .rodata     
+MODULE:                 -- modulhardwarecode.c.o --
+- PROCEDURES:
+     modulhardwarecode                            0'Error       1       1       0   .text       
+     modulhardwarecode_adc_multiplex              0'Error       1       1       0   .text       
+     modulhardwarecode_timer                      0'Error       1       1       0   .text       
+     modulhardwarecode_init                       0'Error       F      15       0   .text       
+- VARIABLES:
+MODULE:                 -- graph_code.c.o --
+- PROCEDURES:
+     graphcode_init                               0'Error       1       1       0   .text       
+     graphcode                                    0'Error       1       1       0   .text       
+- VARIABLES:
+     graph_cycle_time                             0'Error       2       2       0   .data       
+MODULE:                 -- System_Init.c.o --
+- PROCEDURES:
+     sys_parameter_init                           0'Error      CD     205       0   .text       
+     can_create_mask                              0'Error      15      21       0   .text       
+     Modbus_silent_interval_finden                0'Error       1       1       0   .text       
+     Modbus_INIT                                  0'Error       1       1       0   .text       
+     Modbus_IN_and_OUT                            0'Error       1       1       0   .text       
+     int_rx_sci_first                             0'Error       1       1       0   .text       
+     int_stat_sci_first                           0'Error       1       1       0   .text       
+     int_tx_sci_first                             0'Error       1       1       0   .text       
+     i2c_INIT                                     0'Error       1       1       0   .text       
+     bios_i2c1_MC9S08DZ60_rom_save                0'Error       1       1       0   .text       
+     os_pwm_analog_io_average_first               0'Error       1       1       0   .text       
+     os_timer1_dither_calculation_first           0'Error       1       1       0   .text       
+     bios_timer1_pwm_read_calc_first              0'Error       1       1       0   .text       
+     os_port_int_increment_first                  0'Error      21      33       0   .text       
+     can_input_block_to_db_first                  0'Error      16      22       0   .text       
+     can_db_output_to_bus_first                   0'Error       3       3       0   .text       
+     lin_initialization                           0'Error       1       1       0   .text       
+- VARIABLES:
+     os_pwm_duty_timeout                          0'Error       2       2       0   .rodata     
+     bios_port_data_reg                           0'Error       C      12       0   .rodata     
+     bios_port_dir_reg                            0'Error       C      12       0   .rodata     
+     bios_port_pull_dir_reg                       0'Error       C      12       0   .rodata     
+     bios_port_pull_enable_reg                    0'Error       C      12       0   .rodata     
+     bios_port_int_edge_reg                       0'Error       C      12       0   .rodata     
+     bios_port_int_enable_reg                     0'Error       C      12       0   .rodata     
+     bios_port_int_active_reg                     0'Error       C      12       0   .rodata     
+     can_block_db_ram                             0'Error       4       4       0   .data       
+     os_pwm_analog_cal_deactivate                 0'Error       1       1       0   .bss        
+     modbus_active                                0'Error       1       1       0   .bss        
+     dyn_CAN_DP_MAX                               0'Error       2       2       0   .common     
+     dyn_CAN_BUS_MAX                              0'Error       1       1       0   .common     
+     dyn_CAN_BLOCK_MAX                            0'Error       2       2       0   .common     
+     dyn_OS_PORT_INPUT_PIN_MAX                    0'Error       1       1       0   .common     
+     dyn_OS_PORT_PIN_MAX                          0'Error       1       1       0   .common     
+     dyn_OS_ANALOG_PIN_MAX                        0'Error       1       1       0   .common     
+     dyn_CAN_BAUDRATE                             0'Error       1       1       0   .common     
+     dyn_CAN_BAUDRATE_def_sj                      0'Error       1       1       0   .common     
+     dyn_CAN_BAUDRATE_def_pre                     0'Error       1       1       0   .common     
+     dyn_CAN_BAUDRATE_def_t_seg1                  0'Error       1       1       0   .common     
+     dyn_CAN_BAUDRATE_def_t_seg2                  0'Error       1       1       0   .common     
+     dyn_CAN_BAUDRATE_def_source                  0'Error       1       1       0   .common     
+     dyn_CAN_BUS_1                                0'Error       1       1       0   .common     
+     dyn_BIOS_NR_OF_PORTS                         0'Error       1       1       0   .common     
+     dyn_I2C_BYTE_SIZE                            0'Error       2       2       0   .common     
+     dyn_OS_PWM_PIN_MAX                           0'Error       1       1       0   .common     
+     dyn_PWM_DUTY_READ_MAX                        0'Error       1       1       0   .common     
+     dyn_CAN_FILTER_SETTING                       0'Error       1       1       0   .common     
+     dyn_CAN_FILTER                               0'Error       8       8       0   .common     
+     dyn_CAN_MASK                                 0'Error       8       8       0   .common     
+     dyn_USERDATENSATZ_SIZE                       0'Error       1       1       0   .common     
+     dyn_USER_VARIABLE_SIZE                       0'Error       1       1       0   .common     
+     dyn_HSDDATENSATZ_SIZE                        0'Error       1       1       0   .common     
+     dyn_SLAVE_MODBUS_ADRESSE                     0'Error       1       1       0   .common     
+     can1_block_db_ram                            0'Error      26      38       0   .common     
+     os_io_vals                                   0'Error       4       4       0   .common     
+     os_io_prev_vals                              0'Error       4       4       0   .common     
+     os_io_vals_disable                           0'Error       3       3       0   .common     
+     os_pin_entprell_cnt                          0'Error      11      17       0   .common     
+     os_port_int_val                              0'Error      9A     154       0   .common     
+     os_analog_io_vals                            0'Error      18      24       0   .common     
+     os_analog_io_vals_kal                        0'Error      18      24       0   .common     
+     os_analog_io_sum                             0'Error      30      48       0   .common     
+     os_analog_io_sum_cnt                         0'Error       C      12       0   .common     
+     os_analog_io_sum_cnt_max                     0'Error       C      12       0   .common     
+     os_analog_io_pwm_index                       0'Error       C      12       0   .common     
+     os_analog_io_vals_disable                    0'Error       C      12       0   .common     
+     os_pwm_vals                                  0'Error      73     115       0   .common     
+     os_pwm_duty_read                             0'Error      36      54       0   .common     
+     os_can_msg_queue_A                           0'Error      96     150       0   .common     
+     os_can_msg_queue_B                           0'Error      96     150       0   .common     
+     dyn_OS_CAN_MSG_QUEUE_A_SIZE                  0'Error       1       1       0   .common     
+     dyn_OS_CAN_MSG_QUEUE_B_SIZE                  0'Error       1       1       0   .common     
+     os_can_msg_tx_buffer                         0'Error      4B      75       0   .common     
+     dyn_OS_CAN_MSG_TX_BUFFER_SIZE                0'Error       1       1       0   .common     
+     dyn_init_can_listen_only                     0'Error       1       1       0   .common     
+     eeprom_hsddaten                              0'Error      42      66       0   .common     
+     eeprom_hsddaten_type                         0'Error       2       2       0   .common     
+     eeprom_userdaten                             0'Error      70     112       0   .common     
+MODULE:                 -- user_code.c.o --
+- PROCEDURES:
+     usercode_init                                0'Error       3       3       0   .text       
+     app_ensure_init                              0'Error       E      14       0   .text       
+     usercode                                     0'Error      3F      63       0   .text       
+     user_can_message_receive                     0'Error      6A     106       0   .text       
+     user_int_timer_1ms                           0'Error      16      22       0   .text       
+     user_int_adc                                 0'Error       1       1       0   .text       
+- VARIABLES:
+     init_done.1                                  0'Error       1       1       0   .bss        
+     cnt10.2                                      0'Error       1       1       0   .bss        
+MODULE:                 -- RTSHC08.C.o (ansiis.lib) --
+- PROCEDURES:
+     _PUSH_ARGS_L                                 0'Error      20      32       0   .text       
+     _ENTER_UNARY_L                               0'Error      29      41       0   .text       
+     _ENTER_BINARY_L                              0'Error      16      22       0   .text       
+     _ENTER_BINARY_L_RC                           0'Error      19      25       0   .text       
+     _ENTER_BINARY_L_LC                           0'Error      1A      26       0   .text       
+     _LADD_k_is_k_plus_j                          0'Error      1F      31       0   .text       
+     _k_is_k_plus_j_l                             0'Error      1E      30       0   .text       
+     _k_is_k_plus_j_i                             0'Error      12      18       0   .text       
+     _LSUB_k_is_k_minus_j                         0'Error      1F      31       0   .text       
+     _LAND_k_is_k_and_j                           0'Error      1F      31       0   .text       
+     _LOR_k_is_k_or_j                             0'Error      1F      31       0   .text       
+     _LXOR_k_is_k_xor_j                           0'Error      1F      31       0   .text       
+     _LMUL_k_is_k_mul_j                           0'Error      81     129       0   .text       
+     _LDIVMOD                                     0'Error      A4     164       0   .text       
+     _LDIVU_k_is_k_div_j                          0'Error      17      23       0   .text       
+     _LCMP_k_rel_j                                0'Error      1F      31       0   .text       
+     _IMUL_STAR08                                 0'Error      27      39       0   .text       
+     _ILSR                                        0'Error       C      12       0   .text       
+     _ICMP                                        0'Error      16      22       0   .text       
+     _LINC                                        0'Error      16      22       0   .text       
+     _LNOT                                        0'Error      10      16       0   .text       
+     _LADD                                        0'Error       6       6       0   .text       
+     _LSUB                                        0'Error       6       6       0   .text       
+     _LAND                                        0'Error       6       6       0   .text       
+     _LOR                                         0'Error       6       6       0   .text       
+     _LXOR                                        0'Error       6       6       0   .text       
+     _LMUL                                        0'Error       6       6       0   .text       
+     _LMUL_RC                                     0'Error       6       6       0   .text       
+     _LDIVU                                       0'Error       6       6       0   .text       
+     _LDIVU_LC                                    0'Error       6       6       0   .text       
+     _LLSR                                        0'Error      16      22       0   .text       
+     _LLSL                                        0'Error      16      22       0   .text       
+     _LCMP                                        0'Error       6       6       0   .text       
+     _LCMP_RC                                     0'Error       6       6       0   .text       
+     _COPY                                        0'Error      30      48       0   .text       
+     _POP32                                       0'Error      1A      26       0   .text       
+     _CALL_STAR08                                 0'Error      20      32       0   .text       
+     _Jump_Table_Header_Addr                      0'Error      2F      47       0   .text       
+     _Jump_Table_Header_Offset                    0'Error      24      36       0   .text       
+     _PUSH_CC                                     0'Error       F      15       0   .text       
+     _POP_CC                                      0'Error       F      15       0   .text       
+- VARIABLES:
+MODULE:                 -- STRING.C.o (ansiis.lib) --
+- PROCEDURES:
+     _memcpy_8bitCount                            0'Error      24      36       0   .text       
+     strcmp                                       0'Error      3F      63       0   .text       
+- VARIABLES:
+MODULE:                 -- bios_can.c.o (project.lib) --
+- PROCEDURES:
+     bios_test_baudrate                           0'Error      15      21       0   .text       
+     bios_can_filter_A_hit                        0'Error       C      12       0   .text       
+     bios_can_set_mask_A                          0'Error      68     104       0   .text       
+     bios_can_set_filter_A                        0'Error      64     100       0   .text       
+     bios_can_set_mask_B                          0'Error      68     104       0   .text       
+     bios_can_set_filter_B                        0'Error      64     100       0   .text       
+     bios_can_disable                             0'Error      22      34       0   .text       
+     bios_can_enter_reset                         0'Error      14      20       0   .text       
+     bios_can_enter_operation                     0'Error       8       8       0   .text       
+     bios_init_can                                0'Error     25C     604       0   .text       
+     bios_can_write_msg_data                      0'Error      AF     175       0   .text       
+     bios_can_add_tx_buffer                       0'Error      55      85       0   .text       
+     bios_can_handle_tx_buffer                    0'Error      62      98       0   .text       
+     bios_can_send_msg                            0'Error      73     115       0   .text       
+     bios_can_get_msg                             0'Error      DB     219       0   .text       
+     bios_can_get_msg_id                          0'Error      DB     219       0   .text       
+     bios_can_msg_received                        0'Error       C      12       0   .text       
+     bios_can_parameter_to_number                 0'Error      96     150       0   .text       
+- VARIABLES:
+     bios_baudraten                               0'Error      78     120       0   .rodata     
+     bios_can_msg_prio                            0'Error       1       1       0   .common     
+     bios_can_msg_tx_buffer_ptr_w                 0'Error       1       1       0   .common     
+     bios_can_msg_tx_buffer_ptr_r                 0'Error       1       1       0   .common     
+     bios_can_msg_tx_buffer_locked                0'Error       1       1       0   .common     
+MODULE:                 -- bios_cpu.c.o (project.lib) --
+- PROCEDURES:
+     bios_init_cpu_clock                          0'Error       1       1       0   .text       
+     bios_reset_watchdog                          0'Error       9       9       0   .text       
+     bios_enable_watchdog                         0'Error       8       8       0   .text       
+- VARIABLES:
+     CCR_reg                                      0'Error       1       1       0   .common     
+MODULE:                 -- bios_ee_flash.c.o (project.lib) --
+- PROCEDURES:
+     bios_init_flash                              0'Error      14      20       0   .text       
+- VARIABLES:
+MODULE:                 -- bios_i2c.c.o (project.lib) --
+- PROCEDURES:
+     I2C_Interrupt                                0'Error       9       9       0   NON_BANKED  
+- VARIABLES:
+MODULE:                 -- bios_iee.c.o (project.lib) --
+- PROCEDURES:
+     LaunchCmdEndTestError                        0'Error      4E      78       0   .text       
+     NonDestructiveUnsecureWrite                  0'Error     135     309       0   .text       
+     WriteBlock                                   0'Error     29A     666       0   .text       
+     IEE1_SwitchPage                              0'Error      21      33       0   .text       
+     IEE1_SetByte                                 0'Error      5F      95       0   .text       
+     IEE1_SetData                                 0'Error      A4     164       0   .text       
+     IEE1_GetByte                                 0'Error      3A      58       0   .text       
+     IEE1_GetData                                 0'Error      67     103       0   .text       
+     IEE1_Init                                    0'Error      18      24       0   .text       
+- VARIABLES:
+     EEPROMaddr                                   0'Error       2       2       0   .bss        
+     EEPROMSectorBuffer                           0'Error       4       4       0   .bss        
+     EEPROMSectorBufferOther                      0'Error       4       4       0   .bss        
+MODULE:                 -- bios_interrupts.c.o (project.lib) --
+- PROCEDURES:
+     tpm1                                         0'Error       C      12       0   NON_BANKED  
+     tpm1_ch0_interrupt                           0'Error       7       7       0   NON_BANKED  
+     tpm1_ch1_interrupt                           0'Error       8       8       0   NON_BANKED  
+     tpm1_ch2_interrupt                           0'Error       8       8       0   NON_BANKED  
+     tpm1_ch3_interrupt                           0'Error       8       8       0   NON_BANKED  
+     tpm1_ch4_interrupt                           0'Error       8       8       0   NON_BANKED  
+     tpm1_ch5_interrupt                           0'Error       8       8       0   NON_BANKED  
+     tpm2                                         0'Error      24      36       0   NON_BANKED  
+     can_wake_up_int                              0'Error      17      23       0   NON_BANKED  
+     CAN1_InterruptRx                             0'Error      28      40       0   NON_BANKED  
+     CAN1_InterruptTx                             0'Error      14      20       0   NON_BANKED  
+     CAN1_InterruptError                          0'Error      2A      42       0   NON_BANKED  
+     SCI1_Interrupt_Rx                            0'Error      15      21       0   NON_BANKED  
+     SCI1_Interrupt_Tx                            0'Error      15      21       0   NON_BANKED  
+     SCI1_Interrupt_Error                         0'Error       E      14       0   NON_BANKED  
+     SCI2_Interrupt_Rx                            0'Error      18      24       0   NON_BANKED  
+     SCI2_Interrupt_Tx                            0'Error      18      24       0   NON_BANKED  
+     SCI2_Interrupt_Error                         0'Error      10      16       0   NON_BANKED  
+     Port_Interrupt_RX                            0'Error       B      11       0   NON_BANKED  
+     ADC_Interrupt                                0'Error      10      16       0   NON_BANKED  
+     RTC_Interrupt                                0'Error       B      11       0   NON_BANKED  
+     Cpu_Interrupt                                0'Error       1       1       0   NON_BANKED  
+- VARIABLES:
+     rtc_handler                                  0'Error       2       2       0   .bss        
+     lin_ms_timer_handling_interrupt              0'Error       2       2       0   .bss        
+     ErrFlag                                      0'Error       1       1       0   .bss        
+     SerFlagCAN                                   0'Error       1       1       0   .bss        
+     port_int_check                               0'Error       1       1       0   .common     
+     can_wake_int_check                           0'Error       1       1       0   .common     
+MODULE:                 -- bios_io.c.o (project.lib) --
+- PROCEDURES:
+     bios_init_adc                                0'Error       6       6       0   .text       
+     bios_analog_select_channel                   0'Error       D      13       0   .text       
+     bios_analog_get_channel_single               0'Error      13      19       0   .text       
+- VARIABLES:
+     bios_bitmask                                 0'Error       8       8       0   .rodata     
+MODULE:                 -- bios_sci.c.o (project.lib) --
+- PROCEDURES:
+     bios_sci_module_get_rx_interrupt_src          0'Error      7D     125       0   .text       
+     bios_sci_module_get_tx_interrupt_src          0'Error      23      35       0   .text       
+     bios_sci_module_rx_interrupt_ack             0'Error      5E      94       0   .text       
+     bios_sci_module_tx_interrupt_ack             0'Error       1       1       0   .text       
+     bios_sci_module_read_byte                    0'Error       B      11       0   .text       
+     bios_sci_module_rx_interrupt                 0'Error      57      87       0   .text       
+     bios_sci_module_tx_interrupt                 0'Error      47      71       0   .text       
+- VARIABLES:
+     bios_sci_reg                                 0'Error      20      32       0   .rodata     
+     user_sci_module_rx_interrupt                 0'Error       2       2       0   .bss        
+     user_sci_module_tx_interrupt                 0'Error       2       2       0   .bss        
+     user_sci_module_stat_interrupt               0'Error       2       2       0   .bss        
+     lin_rx_frame_handling_interrupt              0'Error       2       2       0   .bss        
+     lin_tx_frame_handling_interrupt              0'Error       2       2       0   .bss        
+     bios_sci_rx_int_src                          0'Error       2       2       0   .common     
+     bios_sci_tx_int_src                          0'Error       2       2       0   .common     
+MODULE:                 -- bios_spi.c.o (project.lib) --
+- PROCEDURES:
+     SS1_Interrupt                                0'Error      30      48       0   NON_BANKED  
+- VARIABLES:
+     SS1_InpLen                                   0'Error       1       1       0   .common     
+     SS1_InpFull                                  0'Error       1       1       0   .common     
+     bios_spi_inpbuffer                           0'Error       6       6       0   .common     
+     bios_spi_outbuffer                           0'Error       6       6       0   .common     
+MODULE:                 -- bios_timer.c.o (project.lib) --
+- PROCEDURES:
+     bios_init_timer                              0'Error      10      16       0   .text       
+     bios_timer1_channels_init                    0'Error      59      89       0   .text       
+     bios_timer1_write_registers                  0'Error      4A      74       0   .text       
+     bios_timer1_interrupt_ack                    0'Error       3       3       0   .text       
+     bios_timer1_chn_interrupt_ack                0'Error      4B      75       0   .text       
+     bios_timer2_interrupt_ack                    0'Error       3       3       0   .text       
+     bios_timer1_pwm_read_init                    0'Error      B4     180       0   .text       
+     bios_get_prescaler_value                     0'Error      E0     224       0   .text       
+     bios_pwm_get_values                          0'Error      B5     181       0   .text       
+- VARIABLES:
+     var_tpm1_registers_blocked                   0'Error       1       1       0   .bss        
+     var_tpm1_registers_dir                       0'Error       1       1       0   .bss        
+     bios_pwm_out_active                          0'Error       1       1       0   .bss        
+     var_TPM1SC                                   0'Error       1       1       0   .common     
+     var_TPM1MOD                                  0'Error       2       2       0   .common     
+     var_TPM1CxV                                  0'Error       C      12       0   .common     
+     bios_pwm1_read                               0'Error      7E     126       0   .common     
+     bios_pwm1_read_cycle_freq                    0'Error       4       4       0   .common     
+     bios_pwm1_read_cycle_fakt                    0'Error       2       2       0   .common     
+     bios_pwm_out_presc                           0'Error       1       1       0   .common     
+MODULE:                 -- can_db.c.o (project.lib) --
+- PROCEDURES:
+     can_db_init                                  0'Error      2F      47       0   .text       
+     bit_weight_32                                0'Error      2A      42       0   .text       
+     can_db_transmit_deactivate                   0'Error      7B     123       0   .text       
+     can_create_mask_simple                       0'Error     40F    1039       0   .text       
+     can_input_block_to_db                        0'Error     1F2     498       0   DEFAULT_ROM2
+     can_db_output_to_bus                         0'Error     5D7    1495       0   DEFAULT_ROM2
+- VARIABLES:
+     can_message_received                         0'Error       1       1       0   .bss        
+MODULE:                 -- Cpu.c.o (project.lib) --
+- PROCEDURES:
+     check_ram_test                               0'Error       1       1       0   .text       
+     _EntryPoint                                  0'Error      55      85       0   NON_BANKED  
+- VARIABLES:
+MODULE:                 -- JMP_VektorTable.asm.o (project.lib) --
+- PROCEDURES:
+     JMP_VECTOR                                   0'Error      80     128       0   JMP_VECTOR_TABLE
+- VARIABLES:
+MODULE:                 -- lin_stack.c.o (project.lib) --
+- PROCEDURES:
+     get_ext_dyn_lin_rx_msg_queue                 0'Error      3F      63       0   .text       
+     private_lin_module_get_saved_rx_msg          0'Error      47      71       0   .text       
+     lin_queue_in_process                         0'Error     13F     319       0   .text       
+     lin_header_received_ack                      0'Error       C      12       0   .text       
+     lin_get_lin_frame_index                      0'Error      5C      92       0   .text       
+     private_lin_stack_module_get_saved_rx_header          0'Error      3C      60       0   .text       
+- VARIABLES:
+     mgl_ptr_lin_msg_queue                        0'Error       2       2       0   .data       
+     ext_lin_stack_header_received_cb_handler          0'Error       2       2       0   .bss        
+     ext_lin_stack_frame_received_cb_handler          0'Error       2       2       0   .bss        
+MODULE:                 -- main.c.o (project.lib) --
+- PROCEDURES:
+     Start_wait                                   0'Error      3D      61       0   .text       
+     init                                         0'Error      3D      61       0   .text       
+     main                                         0'Error     226     550       0   .text       
+- VARIABLES:
+     timer_ResetStart                             0'Error       4       4       0   .bss        
+     modulename_change                            0'Error       1       1       0   .bss        
+     reset_counter_fast                           0'Error       1       1       0   .bss        
+     can_init_disable                             0'Error       1       1       0   .bss        
+     time_diff_graphcode                          0'Error       1       1       0   .bss        
+     time_can                                     0'Error       4       4       0   .common     
+     time_can_tx                                  0'Error       4       4       0   .common     
+     time_graphcode                               0'Error       4       4       0   .common     
+     time_HCS12X_TIMEOUT                          0'Error       4       4       0   .common     
+     time_main_loop                               0'Error       4       4       0   .common     
+     graph_cycle_time_init                        0'Error       2       2       0   .common     
+     timer_diff                                   0'Error       1       1       0   .common     
+     graph_disabled                               0'Error       1       1       0   .common     
+     adc_auto_disable                             0'Error       1       1       0   .common     
+     can_msg                                      0'Error       F      15       0   .common     
+MODULE:                 -- MC9S08DZ60.C.o (project.lib) --
+- PROCEDURES:
+- VARIABLES:
+     _PTAD                                        0       1       1       0   .abs_section_0
+     _PTADD                                       1       1       1       0   .abs_section_1
+     _PTBD                                        2       1       1       0   .abs_section_2
+     _PTBDD                                       3       1       1       0   .abs_section_3
+     _PTCD                                        4       1       1       0   .abs_section_4
+     _PTCDD                                       5       1       1       0   .abs_section_5
+     _PTDD                                        6       1       1       0   .abs_section_6
+     _PTDDD                                       7       1       1       0   .abs_section_7
+     _PTED                                        8       1       1       0   .abs_section_8
+     _PTEDD                                       9       1       1       0   .abs_section_9
+     _PTFD                                        A       1       1       0   .abs_section_a
+     _PTFDD                                       B       1       1       0   .abs_section_b
+     _PTGD                                        C       1       1       0   .abs_section_c
+     _PTGDD                                       D       1       1       0   .abs_section_d
+     _ACMP1SC                                     E       1       1       0   .abs_section_e
+     _ACMP2SC                                     F       1       1       0   .abs_section_f
+     _ADCSC1                                     10       1       1       0   .abs_section_10
+     _ADCSC2                                     11       1       1       0   .abs_section_11
+     _ADCCFG                                     16       1       1       0   .abs_section_16
+     _APCTL1                                     17       1       1       0   .abs_section_17
+     _APCTL2                                     18       1       1       0   .abs_section_18
+     _APCTL3                                     19       1       1       0   .abs_section_19
+     _IRQSC                                      1C       1       1       0   .abs_section_1c
+     _TPM1SC                                     20       1       1       0   .abs_section_20
+     _TPM1C0SC                                   25       1       1       0   .abs_section_25
+     _TPM1C1SC                                   28       1       1       0   .abs_section_28
+     _TPM1C2SC                                   2B       1       1       0   .abs_section_2b
+     _TPM1C3SC                                   2E       1       1       0   .abs_section_2e
+     _TPM1C4SC                                   31       1       1       0   .abs_section_31
+     _TPM1C5SC                                   34       1       1       0   .abs_section_34
+     _SCI1C1                                     3A       1       1       0   .abs_section_3a
+     _SCI1C2                                     3B       1       1       0   .abs_section_3b
+     _SCI1S1                                     3C       1       1       0   .abs_section_3c
+     _SCI1S2                                     3D       1       1       0   .abs_section_3d
+     _SCI1C3                                     3E       1       1       0   .abs_section_3e
+     _SCI1D                                      3F       1       1       0   .abs_section_3f
+     _SCI2C1                                     42       1       1       0   .abs_section_42
+     _SCI2C2                                     43       1       1       0   .abs_section_43
+     _SCI2S1                                     44       1       1       0   .abs_section_44
+     _SCI2S2                                     45       1       1       0   .abs_section_45
+     _SCI2C3                                     46       1       1       0   .abs_section_46
+     _SCI2D                                      47       1       1       0   .abs_section_47
+     _MCGC1                                      48       1       1       0   .abs_section_48
+     _MCGC2                                      49       1       1       0   .abs_section_49
+     _MCGTRM                                     4A       1       1       0   .abs_section_4a
+     _MCGSC                                      4B       1       1       0   .abs_section_4b
+     _MCGC3                                      4C       1       1       0   .abs_section_4c
+     _SPIC1                                      50       1       1       0   .abs_section_50
+     _SPIC2                                      51       1       1       0   .abs_section_51
+     _SPIBR                                      52       1       1       0   .abs_section_52
+     _SPIS                                       53       1       1       0   .abs_section_53
+     _SPID                                       55       1       1       0   .abs_section_55
+     _IICA                                       58       1       1       0   .abs_section_58
+     _IICF                                       59       1       1       0   .abs_section_59
+     _IICC1                                      5A       1       1       0   .abs_section_5a
+     _IICS                                       5B       1       1       0   .abs_section_5b
+     _IICD                                       5C       1       1       0   .abs_section_5c
+     _IICC2                                      5D       1       1       0   .abs_section_5d
+     _TPM2SC                                     60       1       1       0   .abs_section_60
+     _TPM2C0SC                                   65       1       1       0   .abs_section_65
+     _TPM2C1SC                                   68       1       1       0   .abs_section_68
+     _RTCSC                                      6C       1       1       0   .abs_section_6c
+     _RTCCNT                                     6D       1       1       0   .abs_section_6d
+     _RTCMOD                                     6E       1       1       0   .abs_section_6e
+     _SRS                                      1800       1       1       0   .abs_section_1800
+     _SBDFR                                    1801       1       1       0   .abs_section_1801
+     _SOPT1                                    1802       1       1       0   .abs_section_1802
+     _SOPT2                                    1803       1       1       0   .abs_section_1803
+     _SPMSC1                                   1809       1       1       0   .abs_section_1809
+     _SPMSC2                                   180A       1       1       0   .abs_section_180a
+     _DBGC                                     1816       1       1       0   .abs_section_1816
+     _DBGT                                     1817       1       1       0   .abs_section_1817
+     _DBGS                                     1818       1       1       0   .abs_section_1818
+     _FCDIV                                    1820       1       1       0   .abs_section_1820
+     _FOPT                                     1821       1       1       0   .abs_section_1821
+     _FCNFG                                    1823       1       1       0   .abs_section_1823
+     _FPROT                                    1824       1       1       0   .abs_section_1824
+     _FSTAT                                    1825       1       1       0   .abs_section_1825
+     _FCMD                                     1826       1       1       0   .abs_section_1826
+     _PTAPE                                    1840       1       1       0   .abs_section_1840
+     _PTASE                                    1841       1       1       0   .abs_section_1841
+     _PTADS                                    1842       1       1       0   .abs_section_1842
+     _PTASC                                    1844       1       1       0   .abs_section_1844
+     _PTAPS                                    1845       1       1       0   .abs_section_1845
+     _PTAES                                    1846       1       1       0   .abs_section_1846
+     _PTBPE                                    1848       1       1       0   .abs_section_1848
+     _PTBSE                                    1849       1       1       0   .abs_section_1849
+     _PTBDS                                    184A       1       1       0   .abs_section_184a
+     _PTBSC                                    184C       1       1       0   .abs_section_184c
+     _PTBPS                                    184D       1       1       0   .abs_section_184d
+     _PTBES                                    184E       1       1       0   .abs_section_184e
+     _PTCPE                                    1850       1       1       0   .abs_section_1850
+     _PTCSE                                    1851       1       1       0   .abs_section_1851
+     _PTCDS                                    1852       1       1       0   .abs_section_1852
+     _PTDPE                                    1858       1       1       0   .abs_section_1858
+     _PTDSE                                    1859       1       1       0   .abs_section_1859
+     _PTDDS                                    185A       1       1       0   .abs_section_185a
+     _PTDSC                                    185C       1       1       0   .abs_section_185c
+     _PTDPS                                    185D       1       1       0   .abs_section_185d
+     _PTDES                                    185E       1       1       0   .abs_section_185e
+     _PTEPE                                    1860       1       1       0   .abs_section_1860
+     _PTESE                                    1861       1       1       0   .abs_section_1861
+     _PTEDS                                    1862       1       1       0   .abs_section_1862
+     _PTFPE                                    1868       1       1       0   .abs_section_1868
+     _PTFSE                                    1869       1       1       0   .abs_section_1869
+     _PTFDS                                    186A       1       1       0   .abs_section_186a
+     _PTGPE                                    1870       1       1       0   .abs_section_1870
+     _PTGSE                                    1871       1       1       0   .abs_section_1871
+     _PTGDS                                    1872       1       1       0   .abs_section_1872
+     _CANCTL0                                  1880       1       1       0   .abs_section_1880
+     _CANCTL1                                  1881       1       1       0   .abs_section_1881
+     _CANBTR0                                  1882       1       1       0   .abs_section_1882
+     _CANBTR1                                  1883       1       1       0   .abs_section_1883
+     _CANRFLG                                  1884       1       1       0   .abs_section_1884
+     _CANRIER                                  1885       1       1       0   .abs_section_1885
+     _CANTFLG                                  1886       1       1       0   .abs_section_1886
+     _CANTIER                                  1887       1       1       0   .abs_section_1887
+     _CANTARQ                                  1888       1       1       0   .abs_section_1888
+     _CANTAAK                                  1889       1       1       0   .abs_section_1889
+     _CANTBSEL                                 188A       1       1       0   .abs_section_188a
+     _CANIDAC                                  188B       1       1       0   .abs_section_188b
+     _CANMISC                                  188D       1       1       0   .abs_section_188d
+     _CANRXERR                                 188E       1       1       0   .abs_section_188e
+     _CANTXERR                                 188F       1       1       0   .abs_section_188f
+     _CANIDAR0                                 1890       1       1       0   .abs_section_1890
+     _CANIDAR1                                 1891       1       1       0   .abs_section_1891
+     _CANIDAR2                                 1892       1       1       0   .abs_section_1892
+     _CANIDAR3                                 1893       1       1       0   .abs_section_1893
+     _CANIDMR0                                 1894       1       1       0   .abs_section_1894
+     _CANIDMR1                                 1895       1       1       0   .abs_section_1895
+     _CANIDMR2                                 1896       1       1       0   .abs_section_1896
+     _CANIDMR3                                 1897       1       1       0   .abs_section_1897
+     _CANIDAR4                                 1898       1       1       0   .abs_section_1898
+     _CANIDAR5                                 1899       1       1       0   .abs_section_1899
+     _CANIDAR6                                 189A       1       1       0   .abs_section_189a
+     _CANIDAR7                                 189B       1       1       0   .abs_section_189b
+     _CANIDMR4                                 189C       1       1       0   .abs_section_189c
+     _CANIDMR5                                 189D       1       1       0   .abs_section_189d
+     _CANIDMR6                                 189E       1       1       0   .abs_section_189e
+     _CANIDMR7                                 189F       1       1       0   .abs_section_189f
+     _CANRDSR0                                 18A4       1       1       0   .abs_section_18a4
+     _CANRDSR1                                 18A5       1       1       0   .abs_section_18a5
+     _CANRDSR2                                 18A6       1       1       0   .abs_section_18a6
+     _CANRDSR3                                 18A7       1       1       0   .abs_section_18a7
+     _CANRDSR4                                 18A8       1       1       0   .abs_section_18a8
+     _CANRDSR5                                 18A9       1       1       0   .abs_section_18a9
+     _CANRDSR6                                 18AA       1       1       0   .abs_section_18aa
+     _CANRDSR7                                 18AB       1       1       0   .abs_section_18ab
+     _CANRDLR                                  18AC       1       1       0   .abs_section_18ac
+     _CANTDSR0                                 18B4       1       1       0   .abs_section_18b4
+     _CANTDSR1                                 18B5       1       1       0   .abs_section_18b5
+     _CANTDSR2                                 18B6       1       1       0   .abs_section_18b6
+     _CANTDSR3                                 18B7       1       1       0   .abs_section_18b7
+     _CANTDSR4                                 18B8       1       1       0   .abs_section_18b8
+     _CANTDSR5                                 18B9       1       1       0   .abs_section_18b9
+     _CANTDSR6                                 18BA       1       1       0   .abs_section_18ba
+     _CANTDSR7                                 18BB       1       1       0   .abs_section_18bb
+     _CANTDLR                                  18BC       1       1       0   .abs_section_18bc
+     _CANTTBPR                                 18BD       1       1       0   .abs_section_18bd
+     _ADCR                                       12       2       2       0   .abs_section_12
+     _ADCCV                                      14       2       2       0   .abs_section_14
+     _TPM1CNT                                    21       2       2       0   .abs_section_21
+     _TPM1MOD                                    23       2       2       0   .abs_section_23
+     _TPM1C0V                                    26       2       2       0   .abs_section_26
+     _TPM1C1V                                    29       2       2       0   .abs_section_29
+     _TPM1C2V                                    2C       2       2       0   .abs_section_2c
+     _TPM1C3V                                    2F       2       2       0   .abs_section_2f
+     _TPM1C4V                                    32       2       2       0   .abs_section_32
+     _TPM1C5V                                    35       2       2       0   .abs_section_35
+     _SCI1BD                                     38       2       2       0   .abs_section_38
+     _SCI2BD                                     40       2       2       0   .abs_section_40
+     _TPM2CNT                                    61       2       2       0   .abs_section_61
+     _TPM2MOD                                    63       2       2       0   .abs_section_63
+     _TPM2C0V                                    66       2       2       0   .abs_section_66
+     _TPM2C1V                                    69       2       2       0   .abs_section_69
+     _SDID                                     1806       2       2       0   .abs_section_1806
+     _DBGCA                                    1810       2       2       0   .abs_section_1810
+     _DBGCB                                    1812       2       2       0   .abs_section_1812
+     _DBGF                                     1814       2       2       0   .abs_section_1814
+     _CANRTSR                                  18AE       2       2       0   .abs_section_18ae
+     _CANTTSR                                  18BE       2       2       0   .abs_section_18be
+     _CANRIDR                                  18A0       4       4       0   .abs_section_18a0
+     _CANTIDR                                  18B0       4       4       0   .abs_section_18b0
+MODULE:                 -- MODBUS_PLC.C.o (project.lib) --
+- PROCEDURES:
+     MainDelay                                    0'Error      31      49       0   .text       
+- VARIABLES:
+MODULE:                 -- os_can.c.o (project.lib) --
+- PROCEDURES:
+     os_can_get_msg_A                             0'Error      42      66       0   .text       
+     os_can_get_msg_B                             0'Error      42      66       0   .text       
+     os_can_rx                                    0'Error      E8     232       0   .text       
+- VARIABLES:
+     os_can_msg_queue_A_beg                       0'Error       1       1       0   .bss        
+     os_can_msg_queue_A_end                       0'Error       1       1       0   .bss        
+     os_can_msg_queue_B_beg                       0'Error       1       1       0   .bss        
+     os_can_msg_queue_B_end                       0'Error       1       1       0   .bss        
+     os_can_msg_queue_A_overflow                  0'Error       1       1       0   .common     
+     os_can_msg_queue_B_overflow                  0'Error       1       1       0   .common     
+MODULE:                 -- os_iee.c.o (project.lib) --
+- PROCEDURES:
+     os_eeprom_read_all                           0'Error     257     599       0   .text       
+- VARIABLES:
+MODULE:                 -- os_io.c.o (project.lib) --
+- PROCEDURES:
+     os_init_adc                                  0'Error     159     345       0   .text       
+     os_analog_io_tick                            0'Error     10C     268       0   .text       
+     os_analog_int                                0'Error     150     336       0   .text       
+     os_analog_int_start                          0'Error      9D     157       0   .text       
+     os_pin_set_direction                         0'Error      B8     184       0   .text       
+     os_pin_set_pull_direction                    0'Error      B8     184       0   .text       
+     os_pin_set_pull_enable                       0'Error      B8     184       0   .text       
+     os_pin_set_interrupt_edge                    0'Error      B8     184       0   .text       
+     os_pin_set_interrupt_enable                  0'Error      C7     199       0   .text       
+     os_pin_write                                 0'Error      BE     190       0   .text       
+     os_pin_read                                  0'Error      AC     172       0   .text       
+     os_digout                                    0'Error      53      83       0   .text       
+     os_update_digin                              0'Error     14E     334       0   DEFAULT_ROM2
+     os_update_digout                             0'Error     177     375       0   DEFAULT_ROM2
+     os_init_ports                                0'Error     1B9     441       0   DEFAULT_ROM2
+- VARIABLES:
+     os_adc_vals                                  0'Error       A      10       0   .common     
+MODULE:                 -- os_timer.c.o (project.lib) --
+- PROCEDURES:
+     os_timer_tick                                0'Error      83     131       0   .text       
+     os_init_pwm                                  0'Error      7D     125       0   .text       
+     os_init_pwm_duty_read                        0'Error      3B      59       0   .text       
+     os_pwm_read_update                           0'Error      3E      62       0   .text       
+     os_set_timestamp                             0'Error      54      84       0   DEFAULT_ROM2
+     os_timestamp                                 0'Error      17      23       0   DEFAULT_ROM2
+     os_get_time_past                             0'Error      18      24       0   DEFAULT_ROM2
+     os_time_past                                 0'Error      24      36       0   DEFAULT_ROM2
+- VARIABLES:
+     os_time_tick_1ms                             0'Error       4       4       0   .common     
+     os_time_tick_10ms                            0'Error       4       4       0   .common     
+     os_time_tick_100ms                           0'Error       4       4       0   .common     
+     os_time_tick_1000ms                          0'Error       4       4       0   .common     
+     os_time_tmp1                                 0'Error       2       2       0   .common     
+     os_time_tmp2                                 0'Error       2       2       0   .common     
+     os_time_tmp3                                 0'Error       2       2       0   .common     
+MODULE:                 -- os_util.c.o (project.lib) --
+- PROCEDURES:
+     os_util_init                                 0'Error      13      19       0   .text       
+     memcpy_far2near                              0'Error      3D      61       0   .text       
+- VARIABLES:
+MODULE:                 -- Start08.c.o (project.lib) --
+- PROCEDURES:
+     loadByte                                     0'Error       E      14       0   .text       
+     Init                                         0'Error      6D     109       0   .text       
+     _Startup                                     0'Error       C      12       0   .text       
+- VARIABLES:
+     _startupData                                 0'Error       6       6       0   _STARTUP    
+- LABELS:
+     __SEG_END_SSTACK                             0'Error       0       0       0               
+MODULE:                 -- SYSTEM_CAN_EEprom.c.o (project.lib) --
+- PROCEDURES:
+     save_EEProm_Default                          0'Error     13C     316       0   .text       
+     Get_Bootloader_ID                            0'Error      72     114       0   .text       
+     Set_Baudrate_EEPROM                          0'Error      74     116       0   .text       
+     read_EEprom_WERKSDATEN                       0'Error     1FB     507       0   .text       
+     update_EEprom_SW_Version                     0'Error      86     134       0   .text       
+     Check_Portbyte                               0'Error      2A      42       0   .text       
+     CAN_ReceiveMessage                           0'Error      65     101       0   .text       
+     save_ReceiveCan0MsgBuffer                    0'Error      49      73       0   .text       
+     Check_CRC                                    0'Error      42      66       0   .text       
+     can_empfang                                  0'Error     E33    3635       0   .text       
+     ReadCanBuffer                                0'Error      32      50       0   .text       
+     SYSTEM_CAN_MSG_verarbeiten                   0'Error      17      23       0   .text       
+     sendeCanMessage                              0'Error      63      99       0   .text       
+     check_scan_delay                             0'Error      5B      91       0   .text       
+- VARIABLES:
+     EEPROM_Modulname                             0'Error      1F      31       0   .data       
+     EEPROM_SW_Version                            0'Error      15      21       0   .data       
+     EEPROM_Bezeichnung                           0'Error      15      21       0   .data       
+     EEPROM_Werksdaten_vorhanden                  0'Error       1       1       0   .bss        
+     EEPROM_Seriennummer                          0'Error       4       4       0   .bss        
+     EEPROM_Startkenner                           0'Error       2       2       0   .bss        
+     EEPROM_PROG_Status                           0'Error       2       2       0   .bss        
+     EEPROM_ResetCounter                          0'Error       1       1       0   .bss        
+     EEPROM_Library_Version                       0'Error       2       2       0   .bss        
+     EEPROM_MCU_Type                              0'Error       1       1       0   .bss        
+     EEPROM_COP_WD_Timeout                        0'Error       2       2       0   .bss        
+     EEPROM_HW_Version                            0'Error       2       2       0   .bss        
+     EEPROM_Bootloader_Version                    0'Error       2       2       0   .bss        
+     EEPROM_Bootloader_ID_ext                     0'Error       1       1       0   .bss        
+     EEPROM_Bootloader_ID                         0'Error       4       4       0   .bss        
+     EEPROM_Bootloader_MAX_ID                     0'Error       4       4       0   .bss        
+     EEPROM_Bootloader_ID_NIBBLE                  0'Error       2       2       0   .bss        
+     EEPROM_Bootloader_ID_CRC                     0'Error       1       1       0   .bss        
+     EEPROM_Baudrate_Bootloader1                  0'Error       2       2       0   .bss        
+     EEPROM_Portbyte1                             0'Error       2       2       0   .bss        
+     hw_bootloader_access_en                      0'Error       1       1       0   .bss        
+     akt_Zustand_hw_bootloader_access_en          0'Error       1       1       0   .bss        
+     hw_bootloader_access_en_aktiv                0'Error       1       1       0   .bss        
+     TIMEROUT_ModulCanZugriff_aktiv               0'Error       4       4       0   .bss        
+     HW_Bootloader_aktiv                          0'Error       1       1       0   .bss        
+     Produktion_Zugriff_aktiv                     0'Error       1       1       0   .bss        
+     Produktion_aktiv                             0'Error       1       1       0   .bss        
+     USER_EEpromdaten_aktiv                       0'Error       1       1       0   .bss        
+     FLASHER_aktiv                                0'Error       1       1       0   .bss        
+     CAN_writePtr                                 0'Error       1       1       0   .bss        
+     CAN_readPtr                                  0'Error       1       1       0   .bss        
+     Can_OverRun                                  0'Error       2       2       0   .bss        
+     IN_Seriennummer                              0'Error       4       4       0   .bss        
+     SW_Version_Update.4                          0'Error       1       1       0   .bss        
+     scan_delay_active                            0'Error       1       1       0   .common     
+     scan_delay_goal                              0'Error       1       1       0   .common     
+     scan_delay_timer                             0'Error       4       4       0   .common     
+     bl_baudrate_change                           0'Error       1       1       0   .common     
+     RxCan0MsgBuffer                              0'Error      55      85       0   .common     
+     Flashdatenbuffer                             0'Error       F      15       0   .common     
+     TestFlashdatenbuffer                         0'Error       F      15       0   .common     
+     ModulCanZugriff_aktiv                        0'Error       1       1       0   .common     
+     TransmitMsg                                  0'Error       F      15       0   .common     
+
+*********************************************************************************************
+MODULE STATISTIC
+  Name                                      Data   Code  Const
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+SECTION USE IN OBJECT-ALLOCATION SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+OBJECT LIST SORTED BY ADDRESS
+     Name                                      Addr   hSize   dSize     Ref    Section   RLIB
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+UNUSED-OBJECTS SECTION
+---------------------------------------------------------------------------------------------
+NOT USED PROCEDURES
+modulhardwarecode.c.o:
+  modulhardwarecode_sleep 
+System_Init.c.o:
+  fullbridge_10A_block mot_ctrl_1x_fullbridge_block mirror_ctrl_block 
+  lin_bound_to_sci_service_routine fullbridge_microplex_block 
+user_code.c.o:
+  user_int_rx_sci user_int_timer_channels user_int_port user_int_stat_sci 
+RTSHC08.C.o (ansiis.lib):
+  _PUSH_ARGS_D _ENTER_UNARY_L64 _ENTER_UNARY_L64_4 _ENTER_BINARY_L64 
+  _ENTER_BINARY_L64_LC _ENTER_BINARY_L64_RC _IDIVMOD _SPLITSIGN _NEG_L_HX 
+  _ABS_L_HX _SPLITSIGN_L _LMODU_k_is_k_mod_j _LMODS_k_is_k_mod_j 
+  _LDIVS_k_is_k_div_j _CMP24_k_rel_j _BMULS _BDIVS _BMODS _IDIVS_STAR08 
+  _IDIVU_STAR08 _IMODS_STAR08 _IMODU_STAR08 _IDIVU_8 _IMODU_8 _IASR _ILSL _LDEC 
+  _LNEG _LADD_RC _LSUB_LC _LSUB_RC _LAND_RC _LOR_RC _LXOR_RC _LDIVS _LDIVS_LC 
+  _LDIVS_RC _LDIVU_RC _LMODS _LMODS_LC _LMODS_RC _LMODU _LMODU_LC _LMODU_RC 
+  _LASR _CMP24 _CMP24_RC _COPY_L _POP64 _STORE32 _STORE64 _SEXT8_32 _SEXT16_32 
+  _CALL_STAR08_FAR _Jump_Table_Addr _Jump_Table_Offset _Search_Table_16_Addr 
+  _Search_Table_16_Offset _Search_Table_8_Addr _Search_Table_8_Offset 
+  _CONV_FAR_TO_NEAR _CONV_FAR_TO_LINEAR _CONV_LINEAR_TO_FAR 
+STRING.C.o (ansiis.lib):
+  strerror memchr memcmp memcpy2 memcpy memmove memset _memset_clear_8bitCount 
+  strlen strset strcat strncat strcpy strncpy strncmp strchr strrchr strspn 
+  strcspn strpbrk strstr strtok strcoll strxfrm 
+bios_can.c.o (project.lib):
+  bios_can_set_transmit_mode bios_can_check_error 
+bios_cpu.c.o (project.lib):
+  bios_disable_watchdog 
+bios_ee_flash.c.o (project.lib):
+  bios_flash_wb bios_flash_clr 
+bios_i2c.c.o (project.lib):
+  bios_i2c1_init bios_i2c2_init bios_i2c1_generate_9stops 
+  bios_i2c2_generate_9stops bios_i2c1_interrupt_ack bios_i2c1_get_interrupt_src 
+  bios_i2c1_bus_handler bios_i2c1_rx_tx bios_i2c1_wait_on_rx_tx 
+  bios_i2c2_interrupt_ack bios_i2c2_get_interrupt_src bios_i2c2_bus_handler 
+  bios_i2c2_rx_tx bios_i2c2_wait_on_rx_tx 
+bios_io.c.o (project.lib):
+  bios_enable_adc_channel bios_analog_get_channel 
+  bios_analog_get_channel_value 
+bios_sci.c.o (project.lib):
+  bios_sci_module_init bios_sci_module_set_baudrate 
+  bios_sci_module_enable_parity bios_sci_module_disable_parity 
+  bios_sci_module_interrupt_ack bios_sci_module_write_byte 
+  bios_sci_module_write_string bios_sci_module_write_string_far 
+  bios_sci_module_write_block bios_sci_module_send_break 
+  bios_sci_module_enable_tci_and_ri bios_sci_module_enable_tci 
+  bios_sci_module_disable_tci bios_sci_module_enable_int_receive 
+  bios_sci_module_disable_int_receive bios_sci_module_enable_break 
+  bios_sci_module_disable_break 
+bios_spi.c.o (project.lib):
+  bios_spi_slave_init 
+bios_timer.c.o (project.lib):
+  bios_timer1_set_frequency power_of_two_8 bios_timer1_set_duty_cycle 
+  bios_timer1_pwm_read_calc 
+can_db.c.o (project.lib):
+  itom32 put_value_to_can_block get_value_from_can_block can_db_get_value 
+  can_db_get_value_on_change can_db_set_value can_db_set_transmit_flag 
+  can_db_get_block_ptr can_db_block_received can_db_test_dp_value bit_weight_8 
+  can_db_input_from_bus dyn_can_create_mask bubblesort 
+  can_db_set_listen_only_mode 
+lin_stack.c.o (project.lib):
+  lin_set_callback private_get_next_free_header_queue_address 
+  private_lin_id_crc_calculate_and_save lin_calc_pid lin_init 
+  lin_module_disable lin_send_wakeup lin_send_go_to_sleep lin_rx_frame_handling 
+  lin_ms_timer_handling lin_crc_check lin_crc_check_universal 
+  lin_calculate_crc_value lin_calculate_crc_uni 
+  private_lin_enable_transmission_service private_lin_tx_frame_send_start 
+  private_lin_int_tx_frame_send_start private_lin_transmit_frame_initiation 
+  lin_stack_transmit_frame_raw lin_tx_frame_handling lin_db_get_value 
+  lin_db_set_value lin_schedule_handling lin_schedule_handling_reset 
+  private_lin_module_save_rx_msg lin_gateway_handling 
+  lin_gateway_req_data_process lin_gateway_resp_data_process 
+  lin_check_for_received_response_frame lin_check_for_received_request_frame 
+  lin_check_for_received_frame lin_clear_response_frame_flag 
+  lin_clear_request_frame_flag lin_ma_check_frame_resp_timeout 
+  private_lin_module_rx_idle_and_enable_break 
+  private_lin_stack_module_save_rx_header 
+main.c.o (project.lib):
+  Start_wait_short 
+MODBUS_PLC.C.o (project.lib):
+  unsigned_int_to_hi_lo print_modbus ini_modbus berechne_modbus_crc 
+  modbus_buffer_senden modbus_nachricht_auswerten_SLAVE datenpunkte_rd_wr_SLAVE 
+  datenpunkte_rd_wr_SLAVE_spezial modbus_sci1_start_senden int_rx_sci1 
+  int_tx_sci1 print_text_sci1 dyn_Modbus_silent_interval_finden dyn_Modbus_INIT 
+  dyn_Modbus_IN_and_OUT modbus_read_register modbus_write_register 
+  sci_int_buffer_send_start sci_int_buffer_send sci_buffer_send sci_init 
+  sci_put_queue sci_timeout_control 
+os_can.c.o (project.lib):
+  os_can_send_message os_can_check_error os_can_set_baudrate 
+os_iee.c.o (project.lib):
+  os_eeprom_write_all os_eeprom_read_data os_eeprom_write_data 
+os_io.c.o (project.lib):
+  os_algin os_algin_mv os_algin_err os_port_write os_port_set_direction 
+  os_port_set_pull_direction os_port_set_pull_enable os_port_set_interrupt_edge 
+  os_port_set_interrupt_enable os_digin os_port_int_increment os_frequency_calc 
+  os_frequency_calc_get os_frequency_val os_init_frequency_read 
+  os_frequency_read os_incremental_encoder os_incremental_encoder_start_value 
+  os_pwm_analog_io_average os_temperature_read user_int_port_init 
+os_timer.c.o (project.lib):
+  os_wait os_init_timer_channel os_pwm_adc_filter_value os_pwm_duty_cycle 
+  os_timer1_dither_calculation os_pwm_control os_pwm_motor_control 
+  os_pwm_all_channels os_pwm_TLE62826 os_ramp_up_dwn os_int_time_past 
+  os_int_set_timestamp os_int_timestamp 
+os_util.c.o (project.lib):
+  os_util_filter_lowpass_8bit os_util_filter_median_8bit main_delay 
+  memcpy_near2far change_intel_to_motorola_32_bit 
+  put_signal_value_to_data_block get_signal_value_from_data_block 
+  os_util_lookup1D os_util_lookup2D 
+SYSTEM_CAN_EEprom.c.o (project.lib):
+  user_change_BL_baudrate 
+NOT USED VARIABLES
+can_db_tables.c.o:
+  can1_datenpunkt_db_const can_datenpunkt_db_const 
+lin_db_tables.c.o:
+  lin_diag_product_id_aag lin_datapoint_db_const lin_schedule_table_db_const 
+  ext_dyn_frame_counter_max ext_dyn_dp_counter_max 
+  ext_dyn_lin_header_queue_size ext_dyn_lin_rx_timeout 
+  ext_dyn_lin_bus_sleep_flag ext_ptr_ary_lin_diag_product_id 
+  ext_lin_response_error_flag ext_ary_lin_timeout_flags ext_current_slave_state 
+  ext_pending_slave_response ext_dyn_lin_route_gw_max ext_dyn_lin_tx_state 
+  ext_dyn_lin_rx_state ext_dyn_lin_tx_frame_data_counter 
+  ext_dyn_rx_lin_diag_response ext_dyn_tx_data_counter 
+  ext_dyn_ary_lin_frame_req_rx_flag ext_dyn_lin_schedule_line_index 
+  ext_lin_sniffed_rx_frame_db ext_lin_tx_frame_index ext_dyn_lin_rx_len 
+  ext_dyn_rx_lin_cnt ext_dyn_rx_lin_frame_index ext_dyn_lin_rx_message 
+  ext_dyn_mgl_lin_tx_data_ptr ext_dyn_crc_sum ext_dyn_lin_timer_rx_timeout 
+  ext_dyn_lin_tx_message ext_dyn_lin_schedule_timer 
+  ext_dyn_lin_auto_sleep_timer ext_lin_route_gateway_db 
+os_io_tables.c.o:
+  modul_geraetetyp_nr 
+graph_code.c.o:
+  const32array membitarray mem16array mem32array i2c_array 
+System_Init.c.o:
+  dyn_can_send_wait os_port_int_val_limits os_port_int_val_refresh AS1_SerFlag 
+  AS2_SerFlag sci_tx_buffer os_pwm_control_vals user_variable test_zw 
+RTSHC08.C.o (ansiis.lib):
+  _PowOfTwo_8 _PowOfTwo_16 _PowOfTwo_32 errno 
+STRING.C.o (ansiis.lib):
+  STRING..1 next.2 
+bios_ee_flash.c.o (project.lib):
+  PGM 
+bios_i2c.c.o (project.lib):
+  bios_i2c 
+bios_sci.c.o (project.lib):
+  os_sci_module_interrupt sci_tx_buffer 
+bios_spi.c.o (project.lib):
+  SerFlag ErrFlag SS1_OutLen 
+can_db.c.o (project.lib):
+  can_datenpunkt_db_const Save_can_db_test_dp_value msg.1 
+lin_stack.c.o (project.lib):
+  mgl_ary_lin_sleep_data lin_datapoint_db_const lin_schedule_table_db_const 
+  ext_dyn_frame_counter_max mgl_ptr_lin_header_queue 
+  ext_dyn_lin_header_queue_size ext_dyn_lin_rx_timeout 
+  ext_dyn_lin_bus_sleep_flag ext_lin_response_error_flag 
+  ext_ary_lin_timeout_flags ext_current_slave_state ext_pending_slave_response 
+  ext_lin_stack_schedule_complete_cb_handler ext_dyn_lin_route_gw_max 
+  ext_dyn_lin_tx_state ext_lin_stack_frame_transmission_complete_cb_handler 
+  ext_dyn_lin_rx_state ext_dyn_lin_tx_frame_data_counter 
+  ext_lin_tx_byte_check_disable ext_dyn_rx_lin_diag_response mgl_lin_break_len 
+  ext_dyn_tx_data_counter ext_dyn_ary_lin_frame_req_rx_flag 
+  ext_dyn_lin_schedule_line_index ext_lin_sniffed_rx_frame_db 
+  ext_dyn_lin_rx_message ext_dyn_rx_lin_cnt ext_dyn_rx_lin_frame_index 
+  ext_dyn_lin_rx_len ext_dyn_crc_sum ext_lin_tx_frame_index 
+  ext_dyn_lin_tx_message ext_dyn_lin_timer_rx_timeout 
+  ext_dyn_lin_schedule_timer ext_dyn_lin_auto_sleep_timer 
+  ext_lin_route_gateway_db 
+main.c.o (project.lib):
+  timer_diff_cnt 
+MODBUS_PLC.C.o (project.lib):
+  MODBUS_TIMEOUT modbus_crc_hi modbus_crc_lo aktuelle_daten 
+  edit_aktuelle_daten Timer_Modbusverarbeiten Modbusempfang_OK received_data.1 
+  modbus ModbusMaster_Write Telegram_empfang_zaehler telegram_sende_info 
+  telegram_emp_slave telegram_emp_slave_err telegram_emp_slave_err1 
+  telegram_emp_slave_err2 TELEGRAMM_EMPFANG_OK AS2_SerFlag sci_tx_buffer 
+  AS1_SerFlag 
+os_io.c.o (project.lib):
+  os_port_int_val_limits os_port_int_val_refresh os_seven_segment_vals s1 
+os_timer.c.o (project.lib):
+  timer_init.1 os_pwm_control_vals 
+os_util.c.o (project.lib):
+  filter.2 rb_index.3 rb_index.6 ringbuffer.1 ringbuffer.4 sorted.5 
+SYSTEM_CAN_EEprom.c.o (project.lib):
+  EEPROM_Bootloader_ID_Kopie_ext EEPROM_Bootloader_ID_Kopie 
+  EEPROM_Bootloader_ID_Kopie_NIBBLE EEPROM_Bootloader_ID_Kopie_CRC 
+  EEPROM_Baudrate_Bootloader2 EEPROM_Portbyte2 NEU_FLASH Flash_pos 
+  ZUSTAND_Datensatz ret.5 saved_bl_baudrate TransmitCan0Msg AnzahlFlashDaten 
+  z_sendeversuche 
+
+*********************************************************************************************
+COPYDOWN SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+OBJECT-DEPENDENCIES SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+STATISTIC SECTION
+---------------------------------------------------------------------------------------------
+
+ExeFile:
+--------
+Number of blocks to be downloaded: 0
+Total size of all blocks to be downloaded: 0
+

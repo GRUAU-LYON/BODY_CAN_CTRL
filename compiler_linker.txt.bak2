@@ -1,0 +1,19 @@
+compiler can_db_tables.c     -Ms -Cs08 -D__NO_FLOAT__ -NoDebugInfo -NoPath -Os -Ous -OiLib -WOutFileOn -WmsgFbv -WmsgFob"%f%e(%l): %k %d: %m" -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet
+compiler lin_db_tables.c     -Ms -Cs08 -D__NO_FLOAT__ -NoDebugInfo -NoPath -Os -Ous -OiLib -WOutFileOn -WmsgFbv -WmsgFob"%f%e(%l): %k %d: %m" -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet
+compiler lin_diagnose.c      -Ms -Cs08 -D__NO_FLOAT__ -NoDebugInfo -NoPath -Os -Ous -OiLib -WOutFileOn -WmsgFbv -WmsgFob"%f%e(%l): %k %d: %m" -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet
+compiler user_lin_callback.c -Ms -Cs08 -D__NO_FLOAT__ -NoDebugInfo -NoPath -Os -Ous -OiLib -WOutFileOn -WmsgFbv -WmsgFob"%f%e(%l): %k %d: %m" -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet
+compiler os_io_tables.c      -Ms -Cs08 -D__NO_FLOAT__ -NoDebugInfo -NoPath -Os -Ous -OiLib -WOutFileOn -WmsgFbv -WmsgFob"%f%e(%l): %k %d: %m" -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet
+compiler modulhardwarecode.c -Ms -Cs08 -D__NO_FLOAT__ -NoDebugInfo -NoPath -Os -Ous -OiLib -WOutFileOn -WmsgFbv -WmsgFob"%f%e(%l): %k %d: %m" -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet
+compiler graph_setget.c      -Ms -Cs08 -D__NO_FLOAT__ -NoDebugInfo -NoPath -Os -Ous -OiLib -WOutFileOn -WmsgFbv -WmsgFob"%f%e(%l): %k %d: %m" -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet
+compiler graph_code.c        -Ms -Cs08 -D__NO_FLOAT__ -NoDebugInfo -NoPath -Os -Ous -OiLib -WOutFileOn -WmsgFbv -WmsgFob"%f%e(%l): %k %d: %m" -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet
+compiler System_Init.c       -Ms -Cs08 -D__NO_FLOAT__ -NoDebugInfo -NoPath -Os -Ous -OiLib -WOutFileOn -WmsgFbv -WmsgFob"%f%e(%l): %k %d: %m" -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet
+compiler ..\user_code.c      -Ms -Cs08 -D__NO_FLOAT__ -NoDebugInfo -NoPath -Os -Ous -OiLib -WOutFileOn -
+WmsgFbv -WmsgFob"%f%e(%l): %k %d: %m" -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet
+compiler ..\vehicle_layer.c      -Ms -Cs08 -D__NO_FLOAT__ -NoDebugInfo -NoPath -Os -Ous -OiLib -WOutFileOn -
+WmsgFbv -WmsgFob"%f%e(%l): %k %d: %m" -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet
+compiler ..\iveco_eurocargo_j1939_series.c -Ms -Cs08 -D__NO_FLOAT__ -NoDebugInfo -NoPath -Os -Ous -OiLib -WOutFileOn -WmsgFbv -WmsgFob"%f%e(%l): %k %d: %m" -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet
+compiler ..\rt_cd_series.c                -Ms -Cs08 -D__NO_FLOAT__ -NoDebugInfo -NoPath -Os -Ous -OiLib -WOutFileOn -WmsgFbv -WmsgFob"%f%e(%l): %k %d: %m" -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet
+
+
+linker -add(can_db_tables.c.o lin_db_tables.c.o lin_diagnose.c.o user_lin_callback.c.o os_io_tables.c.o modulhardwarecode.c.o graph_setget.c.o graph_code.c.o System_Init.c.o user_code.c.o vehicle_layer.c.o iveco_eurocargo_j1939_series.c.o rt_cd_series.c.o) -add(ansiis.lib project.lib) -M -S -WmsgSd1100 -WmsgSd1912 -WStdoutOn -W1 -WErrFileOn -WmsgNu=abcet -b -LicWait
+

@@ -1,0 +1,5 @@
+ERROR L1822: Symbol vehicle_layer_init in file C:\Program Files (x86)\WE_ICCS_SDK_PLUS\CANgraph\projects\uSPS_CAN_4IO_C_TEMPLATE_unified_code\obj\user_code.c.o is undefined
+ERROR L1822: Symbol vehicle_layer_get in file C:\Program Files (x86)\WE_ICCS_SDK_PLUS\CANgraph\projects\uSPS_CAN_4IO_C_TEMPLATE_unified_code\obj\user_code.c.o is undefined
+ERROR L1822: Symbol vehicle_layer_on_can_frame in file C:\Program Files (x86)\WE_ICCS_SDK_PLUS\CANgraph\projects\uSPS_CAN_4IO_C_TEMPLATE_unified_code\obj\user_code.c.o is undefined
+ERROR L1822: Symbol vehicle_layer_tick_10ms in file C:\Program Files (x86)\WE_ICCS_SDK_PLUS\CANgraph\projects\uSPS_CAN_4IO_C_TEMPLATE_unified_code\obj\user_code.c.o is undefined
+
