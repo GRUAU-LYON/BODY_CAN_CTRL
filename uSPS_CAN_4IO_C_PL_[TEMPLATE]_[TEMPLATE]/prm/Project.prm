@@ -1,0 +1,55 @@
+
+NAMES  END 
+
+SEGMENTS 
+    Z_RAM                   =  READ_WRITE   0x0080 TO 0x00FF;  
+    RAM                     =  READ_WRITE   0x0100 TO 0x0E7E;  
+    RAM_TEST_RESULT_DEF     =  READ_WRITE   0x0E7F TO 0x0E7F;  
+    MY_STK                  =  NO_INIT      0x0E80 TO 0x107F;  
+    ROM1                    =  READ_ONLY    0x1080 TO 0x13FF;  
+    MCU_EEPROM              =  READ_ONLY    0x1400 TO 0x17FF;  
+    EE_FLASH                =  READ_ONLY    0x1900 TO 0x21FF;  
+    ROM                     =  READ_ONLY    0x2200 TO 0xAF7B;  
+    ROM_TEST_CRC_DEF        =  READ_ONLY    0xAF7C TO 0xAF7F;  
+    MY_JMP_VECTORS          =  READ_ONLY    0xAF80 TO 0xAFFF;  
+    ROM2                    =  READ_ONLY    0xB000 TO 0xBDFF;  
+    ROM_BOOTLOADER          =  READ_ONLY    0xBE00 TO 0xFFBF;  
+    INTVECTS                =  READ_ONLY    0xFFC0 TO 0xFFFF;  
+END
+
+PLACEMENT 
+    DEFAULT_RAM                         
+                                        INTO  RAM;
+    SSTACK                              INTO MY_STK;
+
+    _PRESTART,                          
+    STARTUP,                            
+    ROM_VAR,                            
+    STRINGS,                            
+    VIRTUAL_TABLE_SEGMENT,              
+    DEFAULT_ROM,
+    COPY                                        
+                                             INTO  ROM,EE_FLASH; 
+
+    DEFAULT_ROM2        INTO ROM2;   
+
+    JMP_VECTOR_TABLE	INTO  MY_JMP_VECTORS;
+
+    _DATA_ZEROPAGE,                     
+    MY_ZEROPAGE                         INTO  Z_RAM;
+
+    ROM_TEST_CRC             INTO  ROM_TEST_CRC_DEF;         
+    RAM_TEST_RESULT          INTO  RAM_TEST_RESULT_DEF;      
+
+END
+
+
+ENTRIES
+    JMP_VECTOR
+END
+
+INIT  _EntryPoint
+
+STACKSIZE 0x200     
+
+
