@@ -57,6 +57,43 @@ void user_int_stat_sci(void);
 
 
 //--------------------------------------------------------------------------------
+// For RS232/485 communication on CAN I/O, CAN I/O PRO WP set the following #defines:
+
+// Enable or disable RS232/485 serial communication interface (THIS IS NEEDED):
+//#define SCI_USER_ACTIVE
+
+// Activate if needed RS485(for switching driver output enable "DE" - pin)
+//#define SCI_USER_RS485
+
+// Set receive buffer size (16bit value):
+#define USER_BUFFER_SIZE 100
+
+// Set baudrate (typical baudrates are 4800, 9600, 19200, 28800, 38400, 57600)
+#define SCI_USER_BAUDRATE 9600
+
+// Or calculate user-defined baud rate and set register value:
+// Calculation: SBR = BUSCLK / (16 x Baudrate); BUSCLK=20000000 (20MHz)
+//#define SCI_USER_DEFINED_BAUDRATE 0x0041    // =19200 baud
+
+// Parity: 0=disabled, 1=even parity, 2=odd parity
+#define SCI_USER_PARITY   0
+
+// Data bits: 0=8 data bits, 1=9 data bits
+#define SCI_USER_DATA_BITS_9  0
+
+// Activate full duplex mode (e.g. for RS232)
+//#define SCI_USER_FULL_DUPLEX
+
+// DO NOT WAIT after sending a specific delay time for reswitching tx-rx mode (for RS232 it must not wait)
+//#define SCI_NO_DELAY_AFTER_SEND
+
+//CAN I/O, CAN I/O WP, CAN I/O PRO WP use SCI2
+#define SCI_NR  TAKE_SCI2
+//--------------------------------------------------------------------------------
+
+
+
+//--------------------------------------------------------------------------------
 // Read PWM duty cycle:
 
 // Activate PWM duty cycle read

@@ -3,9 +3,9 @@
 /*--------------------------------------------------------------------------*/
 /** \file     graph_defines.h
 *   \brief    Generated code from FUP
-*             Project name: uSPS_CAN_4IO_C_PL_[TEMPLATE]_[TEMPLATE].sch
+*             Project name: uSPS_CAN_4IO_C_2026X0013NPL.sch
 *
-*   \date     30/04/2026 09:05:07    \author   DS/
+*   \date     30/04/2026 15:47:55    \author   DS/
 *
 *   \platform HCS08DZ / HCS12XE / HCS12XD / HCS12P
 * --------------------------------------------------------------------------

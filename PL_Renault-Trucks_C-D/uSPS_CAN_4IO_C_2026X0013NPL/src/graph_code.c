@@ -1,7 +1,7 @@
 //#####################################################
 //#           Generated code
-//#  Project name: uSPS_CAN_4IO_C_PL_[TEMPLATE]_[TEMPLATE].sch
-//#  Code generated: 30/04/2026 09:05:07
+//#  Project name: uSPS_CAN_4IO_C_2026X0013NPL.sch
+//#  Code generated: 30/04/2026 15:47:55
 //#####################################################
 
 #include "graph_includes.h"
@@ -25,7 +25,7 @@ uint16_t graph_cycle_time = 10;
 /** \ingroup graph_func
 *   \brief                  Generated graph-init-code from FUP
 * --------------------------------------------------------------------------
-*   \date                   30/04/2026 09:05:07 \author      dr/
+*   \date                   30/04/2026 15:47:55 \author      dr/
 * ------------------------------------------------------------------------*/
 void graphcode_init(void)
 {
@@ -38,7 +38,7 @@ void graphcode_init(void)
 /** \ingroup graph_func
 *   \brief                  Generated graph-code from FUP
 * --------------------------------------------------------------------------
-*   \date                   30/04/2026 09:05:07 \author      dr/
+*   \date                   30/04/2026 15:47:55 \author      dr/
 * ------------------------------------------------------------------------*/
 void graphcode(void)
 {

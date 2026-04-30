@@ -58,27 +58,27 @@
 
 
     // Filter A
-    #define CAN_FILTER_A   0x18FEF1E6
-    #define CAN_MASK_A     0x00000000
+    #define CAN_FILTER_A   0x1CFEC3E6
+    #define CAN_MASK_A     0x04003200
 
     // Filter B
-    #define CAN_FILTER_B   0x18FEF1E6
+    #define CAN_FILTER_B   0x0CF004E6
     #define CAN_MASK_B     0x00000000
 
     //#define CAN_4_FILTERS_ACTIVE    // Not possible!
     #ifdef CAN_4_FILTERS_ACTIVE
 
         // Filter A_4
-        #define CAN_FILTER_A_4   0x1E6
+        #define CAN_FILTER_A_4   0x000
         #define CAN_MASK_A_4     0x000
         // Filter B_4
-        #define CAN_FILTER_B_4   0x1E6
+        #define CAN_FILTER_B_4   0x000
         #define CAN_MASK_B_4     0x000
         // Filter C_4
-        #define CAN_FILTER_C_4   0x1E6
+        #define CAN_FILTER_C_4   0x000
         #define CAN_MASK_C_4     0x000
         // Filter D_4
-        #define CAN_FILTER_D_4   0x1E6
+        #define CAN_FILTER_D_4   0x000
         #define CAN_MASK_D_4     0x000
     #endif
 
@@ -99,6 +99,9 @@ typedef enum
     SPN70                   = 0,
     SPN84                      ,
     SPN597                     ,
+    SPN190                     ,
+    SPN767                     ,
+    SPN604                     ,
     CAN_DP_MAX            
 }can_dp_id;
 
@@ -109,7 +112,9 @@ typedef enum
 typedef enum
 {
     CCVS                    = 0,
-    CAN_BLOCK_MAX           = 1
+    EEC1                    = 1,
+    ETC5                    = 2,
+    CAN_BLOCK_MAX           = 3
 } can_block_id;
 
 
