@@ -97,6 +97,7 @@ typedef enum
 typedef enum
 {
     SPN70                   = 0,
+    SPN84                      ,
     SPN597                     ,
     CAN_DP_MAX            
 }can_dp_id;
