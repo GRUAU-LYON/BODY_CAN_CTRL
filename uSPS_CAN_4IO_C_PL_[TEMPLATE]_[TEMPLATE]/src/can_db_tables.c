@@ -25,7 +25,14 @@
 *                    As parameter use the name from the list #can_dp_id verwendet,
 *                    the order has to be the same as in this table.
 * --------------------------------------------------------------------------*/
- volatile const can_datenpunkt_db_const_typ can1_datenpunkt_db_const[CAN_DP_MAX+1] ; // Array can1_....  with the dp of one CAN interface
+ volatile const can_datenpunkt_db_const_typ can1_datenpunkt_db_const[CAN_DP_MAX+1] = { // Array can1_....  with the dp of one CAN interface
+ //CAN block index        Pos bit0             Length,     Data type   Data format           LineNr: datapoint-ID  
+ //-----------------------------------------------------------------------------------------------------------------
+ //(16 Bit)              (0-63)                (1-32)                  (0=Intel, 1=Motorola)
+ //-----------------------------------------------------------------------------------------------------------------
+{  CCVS                  ,2                    ,2          ,UBYTE      ,0          },  //SPN70                 
+{  CCVS                  ,28                   ,2          ,UBYTE      ,0          },  //SPN597                
+};
 
 //--------------------------------------------------------------------------------------------------------
 // Pointer array to datapoint_db arrays per CAN interface
@@ -46,7 +53,13 @@ volatile const can_datenpunkt_db_const_typ *can_datenpunkt_db_const[CAN_BUS_MAX+
 *                    Every CAN block is assigned to a ID, the order has to be
 *                    the same as in this table.
 * --------------------------------------------------------------------------*/
- volatile const can_block_db_const_typ can1_block_db_const[CAN_BLOCK_MAX+1] ; // Array can1_....  with the CAN blocks of one CAN interface
+ volatile const can_block_db_const_typ can1_block_db_const[CAN_BLOCK_MAX+1] = { // Array can1_....  with the CAN blocks of one CAN interface
+ //CAN-ID                EXT-ID                Max,                  Min                   Msg-Len DLC           TX Flag               CAN-ID-Mask           
+ //----------------------------------------------------------------------------------------------------------------------------------------------------------
+ //(32 Bit)              (0,1)                 (32 Bit)              (32 Bit)              (0-8)                 (0,1)                 (29bit)               
+ //----------------------------------------------------------------------------------------------------------------------------------------------------------
+{  0x18FEF1E6            ,1                    ,500                  ,0                    ,8                    ,0                    ,0                    } ,  //CCVS                  
+};
 
 
 //--------------------------------------------------------------------------------------------

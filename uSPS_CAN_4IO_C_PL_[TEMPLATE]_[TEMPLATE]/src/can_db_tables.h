@@ -33,9 +33,9 @@
 
 
 //SETTING FOR BIOS_CAN_EXT_BAUDRATE 
-#define  CAN_BAUDRATE_def_BEZEICHNUNG  125 kBit
+#define  CAN_BAUDRATE_def_BEZEICHNUNG  250 kBit
 #define  CAN_BAUDRATE_def_sj           2
-#define  CAN_BAUDRATE_def_pre          4
+#define  CAN_BAUDRATE_def_pre          2
 #define  CAN_BAUDRATE_def_t_seg1       13
 #define  CAN_BAUDRATE_def_t_seg2       2
 #define  CAN_BAUDRATE_def_source       0
@@ -48,7 +48,7 @@
 #ifdef CAN_USER_SETTINGS_ACTIVE
 
     // Settings of CAN filters and masks:
-    #define CAN_FILTER_SETTING BIOS_CAN_ID_ALL_CLOSED
+    #define CAN_FILTER_SETTING BIOS_CAN_ID_EXT_A_AND_B
     // Possibilities:
     // BIOS_CAN_ID_NORM_A_AND_B  // Both masks 11bit
     // BIOS_CAN_ID_NORM_A_EXT_B  // One mask 11bit, the other 29bit
@@ -58,27 +58,27 @@
 
 
     // Filter A
-    #define CAN_FILTER_A   0x000
-    #define CAN_MASK_A     0x000
+    #define CAN_FILTER_A   0x18FEF1E6
+    #define CAN_MASK_A     0x00000000
 
     // Filter B
-    #define CAN_FILTER_B   0x000
-    #define CAN_MASK_B     0x000
+    #define CAN_FILTER_B   0x18FEF1E6
+    #define CAN_MASK_B     0x00000000
 
     //#define CAN_4_FILTERS_ACTIVE    // Not possible!
     #ifdef CAN_4_FILTERS_ACTIVE
 
         // Filter A_4
-        #define CAN_FILTER_A_4   0x000
+        #define CAN_FILTER_A_4   0x1E6
         #define CAN_MASK_A_4     0x000
         // Filter B_4
-        #define CAN_FILTER_B_4   0x000
+        #define CAN_FILTER_B_4   0x1E6
         #define CAN_MASK_B_4     0x000
         // Filter C_4
-        #define CAN_FILTER_C_4   0x000
+        #define CAN_FILTER_C_4   0x1E6
         #define CAN_MASK_C_4     0x000
         // Filter D_4
-        #define CAN_FILTER_D_4   0x000
+        #define CAN_FILTER_D_4   0x1E6
         #define CAN_MASK_D_4     0x000
     #endif
 
@@ -96,7 +96,9 @@ typedef enum
 /// Define datapoints: Order must be the same as in table#can_datenpunkt_db_const
 typedef enum
 {
-    CAN_DP_MAX              = 0
+    SPN70                   = 0,
+    SPN597                     ,
+    CAN_DP_MAX            
 }can_dp_id;
 
 
@@ -105,7 +107,8 @@ typedef enum
 /// Define CAN blocks: Order must be the same as in table #can_block_db_const
 typedef enum
 {
-    CAN_BLOCK_MAX           = 0
+    CCVS                    = 0,
+    CAN_BLOCK_MAX           = 1
 } can_block_id;
 
 
