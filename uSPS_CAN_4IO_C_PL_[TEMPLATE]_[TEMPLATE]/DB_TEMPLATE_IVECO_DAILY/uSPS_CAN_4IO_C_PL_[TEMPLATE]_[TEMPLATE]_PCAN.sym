@@ -1,0 +1,29 @@
+FormatVersion=5.0 // Do not edit!
+UniqueVariables=True
+Title="uSPS_CAN_4IO_C_PL_[TEMPLATE]_[TEMPLATE]_PCAN"
+
+{RECEIVE}
+
+{SEND}
+
+[MuxInfo_L]
+ID=18FFC321h
+Type=Extended
+DLC=8
+CycleTime=500
+Var=High_Beam_Lights unsigned 6,1
+Var=Low_Beam_Lights unsigned 7,1
+Var=Hatch_Rear unsigned 28,1
+Var=Door_Left_Rear unsigned 29,1
+Var=Door_Right_Rear unsigned 30,1
+Var=Key_Status unsigned 40,4
+Var=Hand_Brake unsigned 56,1
+
+[PB_NmM]
+ID=0CFFD221h
+Type=Extended
+DLC=8
+CycleTime=1000
+Var=Ignition_On unsigned 4,2
+
+

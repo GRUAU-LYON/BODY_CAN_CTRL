@@ -33,9 +33,9 @@
 
 
 //SETTING FOR BIOS_CAN_EXT_BAUDRATE 
-#define  CAN_BAUDRATE_def_BEZEICHNUNG  250 kBit
+#define  CAN_BAUDRATE_def_BEZEICHNUNG  500 kBit
 #define  CAN_BAUDRATE_def_sj           2
-#define  CAN_BAUDRATE_def_pre          2
+#define  CAN_BAUDRATE_def_pre          1
 #define  CAN_BAUDRATE_def_t_seg1       13
 #define  CAN_BAUDRATE_def_t_seg2       2
 #define  CAN_BAUDRATE_def_source       0

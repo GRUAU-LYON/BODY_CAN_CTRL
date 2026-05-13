@@ -1,0 +1,13 @@
+Résumé Semaine 18 
+
+Je commences la semaine en cherchant toujours une solution viable pour être capable de reflasher un module qui à été flasher en lecture seule. Je me rapproche donc d'un des ingénieurs de chez ICCS : Romain. 
+Après plus d'un jour et demie d'échange c'est le mardi après-midi que je trouve une procédure grâce aux conseils de Romain pour être capable d'intercepter le bootloader qui ne dure que 300ms sur ma version. 
+En effet, mon application embarquée s'initialise très rapidement et donc reprends la main sur le CAN bus qui n'est donc plus disponible pour le flash.
+
+
+Après RDV avec WE le mercredi après-midi, Gregory le commercial de WE à proposer plusieurs solutions pour la mise en prod. des boitiers ainsi quelques conseils sur les contraintes que je rencontrais comme mes codes qui n'était pas organisé ou alors certaines versions étaient introuvables par exemple. 
+
+Pour palier à cela, on vas faire pour commencé du versionning local puis essayer de le faire sur le réseau GRUAU et parallèlement à ICCS pour une mise en prod. plus rapide et directement organisée de leur côté.
+
+
+L'objectif est d'avoir des références différentes directement chez WE pour acheter les boitiers directement flashés pour le modèle de véhicule souhaité grâce au NIUC (numéro d'identification unique codé). Ce qui nous fait gagné du temps énorme en prod et demande moins de compétences. 
